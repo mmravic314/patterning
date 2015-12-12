@@ -1,0 +1,5 @@
+
+## After making fragments of the amyloid surface exposed interface
+>for i in ~/peptideAmlyoid/searchFrags/*.pdb; do ~/termanal/createPDS --type query --pdb  $i; done
+
+> for i in ~/peptideAmlyoid/searchFrags/*.pds; do ~/termanal/master --query $i --targetList ~/termanal/support.default/database/list --topN 5000 --rmsdCut 5 --matchOut $i.m; done
