@@ -1,0 +1,1330 @@
+
+#########################################################
+################## START OF N9-2 HISTORY ##############
+#########################################################
+
+
+otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
+Entering matches for n9_2strand 
+
+4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 0.481403 FOUND!
+350 351 352 353 354
+380 381 382 383 384
+
+1vh4_A.pds 0.494888 FOUND!
+350 351 352 353 354
+384 385 386 387 388 389
+
+1vh4_A.pds 0.49898 FOUND!
+350 351 352 353 354
+384 385 386 387 388
+
+4dn7_A.pds 0.538974 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.542911 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 0.569795 FOUND!
+350 351 352 353 354
+381 382 383 384
+389 390 391 392 393
+
+1vh4_A.pds 0.58037 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 0.591733 FOUND!
+350 351 352 353 354
+381 382 383 384
+
+4dn7_A.pds 0.593171 FOUND!
+350 351 352 353 354
+381 382 383 384
+
+4dt5_A.pds 0.612833 zero or <4 helical residues; SKIP
+
+4dt5_A.pds 0.619643 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.619997 FOUND!
+350 351 352 353 354
+
+4dt5_A.pds 0.622933 zero or <4 helical residues; SKIP
+
+2r9y_A.pds 0.625699 FOUND!
+350 351 352 353 354
+38 39 40 41 42 43 44 45 46 47 48 49 50
+277 278 279 280 281
+286 287 288 289
+
+4dt5_A.pds 0.630013 zero or <4 helical residues; SKIP
+
+3sf5_B.pds 0.634359 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 0.640088 FOUND!
+350 351 352 353 354
+377 378 379 380 381 382 383 384
+
+1vh4_A.pds 0.642419 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 0.64895 FOUND!
+350 351 352 353 354
+377 378 379 380 381
+
+4dn7_A.pds 0.652072 FOUND!
+350 351 352 353 354
+378 379 380 381 382 383 384
+393 394 395 396 397
+
+4dt5_A.pds 0.661744 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.662129 FOUND!
+350 351 352 353 354
+384 385 386 387 388
+
+3sf5_B.pds 0.666342 zero or <4 helical residues; SKIP
+
+4dt5_A.pds 0.667134 FOUND!
+350 351 352 353 354
+
+4dt5_A.pds 0.673117 zero or <4 helical residues; SKIP
+
+3sf5_B.pds 0.677005 zero or <4 helical residues; SKIP
+
+1zh8_A.pds 0.677022 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.681137 FOUND!
+350 351 352 353 354
+114 115 116 117 118 119 120 121
+
+3sf5_B.pds 0.683531 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.686216 zero or <4 helical residues; SKIP
+
+4qrk_A.pds 0.690886 FOUND!
+350 351 352 353 354
+
+3sf5_B.pds 0.692641 zero or <4 helical residues; SKIP
+
+1imv_A.pds 0.693306 FOUND!
+350 351 352 353 354
+143 144 145 146 147 148 149 150 151 152 153
+
+1vh4_A.pds 0.715583 FOUND!
+350 351 352 353 354
+114 115 116 117 118 119 120 121 122
+
+4dn7_A.pds 0.719873 FOUND!
+350 351 352 353 354
+116 117 118 119 120 121 122 123
+
+1vh4_A.pds 0.720429 FOUND!
+350 351 352 353 354
+
+4dt5_A.pds 0.72245 zero or <4 helical residues; SKIP
+
+4f6o_A.pds 0.726323 FOUND!
+350 351 352 353 354
+104 105 106 107 108 109 110 111 112 113 114 115
+157 158 159 160 161 162
+
+4dt5_A.pds 0.727157 zero or <4 helical residues; SKIP
+
+3sf5_B.pds 0.735344 zero or <4 helical residues; SKIP
+
+4dt5_A.pds 0.73776 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.739021 FOUND!
+350 351 352 353 354
+380 381 382 383 384 385 386 387 388
+401 402 403 404 405
+
+1vh4_A.pds 0.748594 zero or <4 helical residues; SKIP
+
+1sng_A.pds 0.749853 FOUND!
+350 351 352 353 354
+38 39 40 41
+44 45 46 47 48 49
+
+4dn7_A.pds 0.750365 zero or <4 helical residues; SKIP
+
+3kd4_A.pds 0.755454 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 0.756372 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.757323 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:18:17--  http://www.rcsb.org/pdb/files/3JX8.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/3JX8.pdb.1'
+
+3JX8.pdb.1                     [    <=>                                    ]   1.16M  1.81MB/s   in 0.6s   
+
+2015-12-16 15:18:18 (1.81 MB/s) - 'n9_2strand/3JX8.pdb.1' saved [1216620]
+
+@> WARNING Atomic data could not be parsed, please check the input file.
+3jx8_A.pds 0.757891
+Traceback (most recent call last):
+  File "/Users/mmravic/bin/matchLookup.py", line 114, in <module>
+    writePDB( pdbPath, parsePDB( pact, chain = chID ).select( 'protein' ) )
+AttributeError: 'NoneType' object has no attribute 'select'
+otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
+Entering matches for n9_2strand 
+
+--2015-12-16 15:20:07--  http://www.rcsb.org/pdb/files/4DT5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4DT5.pdb'
+
+4DT5.pdb                       [  <=>                                      ] 393.69K  1.91MB/s   in 0.2s   
+
+2015-12-16 15:20:08 (1.91 MB/s) - 'n9_2strand/4DT5.pdb' saved [403137]
+
+4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:20:08--  http://www.rcsb.org/pdb/files/4DN7.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4DN7.pdb'
+
+4DN7.pdb                       [       <=>                                 ]   1.12M   769KB/s   in 1.5s   
+
+2015-12-16 15:20:09 (769 KB/s) - 'n9_2strand/4DN7.pdb' saved [1174419]
+
+4dn7_A.pds 0.481403 FOUND!
+350 351 352 353 354
+Traceback (most recent call last):
+  File "/Users/mmravic/bin/matchLookup.py", line 254, in <module>
+    if hsel != extsel:
+NameError: name 'extsel' is not defined
+otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
+Entering matches for n9_2strand 
+
+--2015-12-16 15:20:27--  http://www.rcsb.org/pdb/files/4DT5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4DT5.pdb'
+
+4DT5.pdb                       [  <=>                                      ] 393.69K  1.36MB/s   in 0.3s   
+
+2015-12-16 15:20:28 (1.36 MB/s) - 'n9_2strand/4DT5.pdb' saved [403137]
+
+4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:20:28--  http://www.rcsb.org/pdb/files/4DN7.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4DN7.pdb'
+
+4DN7.pdb                       [   <=>                                     ]   1.12M  1.88MB/s   in 0.6s   
+
+2015-12-16 15:20:28 (1.88 MB/s) - 'n9_2strand/4DN7.pdb' saved [1174419]
+
+4dn7_A.pds 0.481403 FOUND!
+350 351 352 353 354
+Traceback (most recent call last):
+  File "/Users/mmravic/bin/matchLookup.py", line 254, in <module>
+    if hsel != extsel:
+NameError: name 'extsel' is not defined
+otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
+Entering matches for n9_2strand 
+
+--2015-12-16 15:21:29--  http://www.rcsb.org/pdb/files/4DT5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4DT5.pdb'
+
+4DT5.pdb                       [  <=>                                      ] 393.69K  1.85MB/s   in 0.2s   
+
+2015-12-16 15:21:30 (1.85 MB/s) - 'n9_2strand/4DT5.pdb' saved [403137]
+
+4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:30--  http://www.rcsb.org/pdb/files/4DN7.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4DN7.pdb'
+
+4DN7.pdb                       [     <=>                                   ]   1.12M  1006KB/s   in 1.1s   
+
+2015-12-16 15:21:31 (1006 KB/s) - 'n9_2strand/4DN7.pdb' saved [1174419]
+
+4dn7_A.pds 0.481403 FOUND!
+350 351 352 353 354
+380 381 382 383 384
+
+--2015-12-16 15:21:32--  http://www.rcsb.org/pdb/files/1VH4.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/1VH4.pdb'
+
+1VH4.pdb                       [  <=>                                      ] 587.41K  1.59MB/s   in 0.4s   
+
+2015-12-16 15:21:32 (1.59 MB/s) - 'n9_2strand/1VH4.pdb' saved [601506]
+
+1vh4_A.pds 0.494888 FOUND!
+350 351 352 353 354
+384 385 386 387 388 389
+
+1vh4_A.pds 0.49898 FOUND!
+350 351 352 353 354
+384 385 386 387 388
+
+4dn7_A.pds 0.538974 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.542911 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 0.569795 FOUND!
+350 351 352 353 354
+381 382 383 384
+389 390 391 392 393
+
+1vh4_A.pds 0.58037 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 0.591733 FOUND!
+350 351 352 353 354
+381 382 383 384
+
+4dn7_A.pds 0.593171 FOUND!
+350 351 352 353 354
+381 382 383 384
+
+4dt5_A.pds 0.612833 zero or <4 helical residues; SKIP
+
+4dt5_A.pds 0.619643 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.619997 FOUND!
+350 351 352 353 354
+
+4dt5_A.pds 0.622933 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:33--  http://www.rcsb.org/pdb/files/2R9Y.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/2R9Y.pdb'
+
+2R9Y.pdb                       [  <=>                                      ] 299.08K   530KB/s   in 0.6s   
+
+2015-12-16 15:21:34 (530 KB/s) - 'n9_2strand/2R9Y.pdb' saved [306261]
+
+2r9y_A.pds 0.625699 FOUND!
+350 351 352 353 354
+38 39 40 41 42 43 44 45 46 47 48 49 50
+277 278 279 280 281
+286 287 288 289
+
+4dt5_A.pds 0.630013 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:34--  http://www.rcsb.org/pdb/files/3SF5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/3SF5.pdb'
+
+3SF5.pdb                       [   <=>                                     ] 696.17K   912KB/s   in 0.8s   
+
+2015-12-16 15:21:35 (912 KB/s) - 'n9_2strand/3SF5.pdb' saved [712881]
+
+3sf5_B.pds 0.634359 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 0.640088 FOUND!
+350 351 352 353 354
+377 378 379 380 381 382 383 384
+
+1vh4_A.pds 0.642419 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 0.64895 FOUND!
+350 351 352 353 354
+377 378 379 380 381
+
+4dn7_A.pds 0.652072 FOUND!
+350 351 352 353 354
+378 379 380 381 382 383 384
+393 394 395 396 397
+
+4dt5_A.pds 0.661744 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.662129 FOUND!
+350 351 352 353 354
+384 385 386 387 388
+
+3sf5_B.pds 0.666342 zero or <4 helical residues; SKIP
+
+4dt5_A.pds 0.667134 FOUND!
+350 351 352 353 354
+
+4dt5_A.pds 0.673117 zero or <4 helical residues; SKIP
+
+3sf5_B.pds 0.677005 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:36--  http://www.rcsb.org/pdb/files/1ZH8.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/1ZH8.pdb'
+
+1ZH8.pdb                       [  <=>                                      ] 502.29K  1.79MB/s   in 0.3s   
+
+2015-12-16 15:21:36 (1.79 MB/s) - 'n9_2strand/1ZH8.pdb' saved [514350]
+
+1zh8_A.pds 0.677022 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.681137 FOUND!
+350 351 352 353 354
+114 115 116 117 118 119 120 121
+
+3sf5_B.pds 0.683531 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.686216 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:37--  http://www.rcsb.org/pdb/files/4QRK.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4QRK.pdb'
+
+4QRK.pdb                       [  <=>                                      ] 314.75K  1.44MB/s   in 0.2s   
+
+2015-12-16 15:21:37 (1.44 MB/s) - 'n9_2strand/4QRK.pdb' saved [322299]
+
+4qrk_A.pds 0.690886 FOUND!
+350 351 352 353 354
+
+3sf5_B.pds 0.692641 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:37--  http://www.rcsb.org/pdb/files/1IMV.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/1IMV.pdb'
+
+1IMV.pdb                       [  <=>                                      ] 272.43K   503KB/s   in 0.5s   
+
+2015-12-16 15:21:38 (503 KB/s) - 'n9_2strand/1IMV.pdb' saved [278964]
+
+1imv_A.pds 0.693306 FOUND!
+350 351 352 353 354
+143 144 145 146 147 148 149 150 151 152 153
+
+1vh4_A.pds 0.715583 FOUND!
+350 351 352 353 354
+114 115 116 117 118 119 120 121 122
+
+4dn7_A.pds 0.719873 FOUND!
+350 351 352 353 354
+116 117 118 119 120 121 122 123
+
+1vh4_A.pds 0.720429 FOUND!
+350 351 352 353 354
+
+4dt5_A.pds 0.72245 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:38--  http://www.rcsb.org/pdb/files/4F6O.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/4F6O.pdb'
+
+4F6O.pdb                       [  <=>                                      ] 225.44K  1.00MB/s   in 0.2s   
+
+2015-12-16 15:21:39 (1.00 MB/s) - 'n9_2strand/4F6O.pdb' saved [230850]
+
+4f6o_A.pds 0.726323 FOUND!
+350 351 352 353 354
+104 105 106 107 108 109 110 111 112 113 114 115
+157 158 159 160 161 162
+
+4dt5_A.pds 0.727157 zero or <4 helical residues; SKIP
+
+3sf5_B.pds 0.735344 zero or <4 helical residues; SKIP
+
+4dt5_A.pds 0.73776 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.739021 FOUND!
+350 351 352 353 354
+380 381 382 383 384 385 386 387 388
+401 402 403 404 405
+
+1vh4_A.pds 0.748594 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:39--  http://www.rcsb.org/pdb/files/1SNG.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/1SNG.pdb'
+
+1SNG.pdb                       [  <=>                                      ] 294.89K   807KB/s   in 0.4s   
+
+2015-12-16 15:21:40 (807 KB/s) - 'n9_2strand/1SNG.pdb' saved [301968]
+
+1sng_A.pds 0.749853 FOUND!
+350 351 352 353 354
+38 39 40 41
+44 45 46 47 48 49
+
+4dn7_A.pds 0.750365 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:21:40--  http://www.rcsb.org/pdb/files/3KD4.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/3KD4.pdb'
+
+3KD4.pdb                       [       <=>                                 ] 824.63K   482KB/s   in 1.7s   
+
+2015-12-16 15:21:42 (482 KB/s) - 'n9_2strand/3KD4.pdb' saved [844425]
+
+3kd4_A.pds 0.755454 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 0.756372 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 0.757323 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:21:42--  http://www.rcsb.org/pdb/files/3JX8.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'n9_2strand/3JX8.pdb'
+
+3JX8.pdb                       [    <=>                                    ]   1.16M  1.85MB/s   in 0.6s   
+
+2015-12-16 15:21:43 (1.85 MB/s) - 'n9_2strand/3JX8.pdb' saved [1216620]
+
+3jx8_A.pds 0.757891 FOUND!
+350 351 352 353 354
+
+
+
+
+
+#########################################################
+################## START OF C9-2 HISTORY ##############
+#########################################################
+
+
+
+
+otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py c9_2strand.pdb c9_2strand.pds.m 
+Entering matches for c9_2strand 
+
+--2015-12-16 15:25:27--  http://www.rcsb.org/pdb/files/3SUC.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3SUC.pdb'
+
+3SUC.pdb                       [ <=>                                       ] 983.94K  5.29MB/s   in 0.2s   
+
+2015-12-16 15:25:28 (5.29 MB/s) - 'c9_2strand/3SUC.pdb' saved [1007559]
+
+3suc_A.pds 0.668785 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:28--  http://www.rcsb.org/pdb/files/3EQN.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3EQN.pdb'
+
+3EQN.pdb                       [  <=>                                      ]   1.11M  4.80MB/s   in 0.2s   
+
+2015-12-16 15:25:29 (4.80 MB/s) - 'c9_2strand/3EQN.pdb' saved [1165671]
+
+3eqn_A.pds 0.690282 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:29--  http://www.rcsb.org/pdb/files/3GQ7.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3GQ7.pdb'
+
+3GQ7.pdb                       [  <=>                                      ] 448.82K   766KB/s   in 0.6s   
+
+2015-12-16 15:25:29 (766 KB/s) - 'c9_2strand/3GQ7.pdb' saved [459594]
+
+3gq7_A.pds 0.713451 FOUND!
+350 351 352 353 354
+
+3suc_A.pds 0.72663 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:30--  http://www.rcsb.org/pdb/files/1RWR.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1RWR.pdb'
+
+1RWR.pdb                       [  <=>                                      ] 410.93K  1.78MB/s   in 0.2s   
+
+2015-12-16 15:25:30 (1.78 MB/s) - 'c9_2strand/1RWR.pdb' saved [420795]
+
+1rwr_A.pds 0.729852 FOUND!
+350 351 352 353 354
+
+3suc_A.pds 0.772549 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:30--  http://www.rcsb.org/pdb/files/3LMW.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3LMW.pdb'
+
+3LMW.pdb                       [      <=>                                  ]   1.22M   864KB/s   in 1.4s   
+
+2015-12-16 15:25:32 (864 KB/s) - 'c9_2strand/3LMW.pdb' saved [1276317]
+
+3lmw_A.pds 0.78131 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:32--  http://www.rcsb.org/pdb/files/4MXN.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/4MXN.pdb'
+
+4MXN.pdb                       [    <=>                                    ]   1.17M  1.25MB/s   in 0.9s   
+
+2015-12-16 15:25:33 (1.25 MB/s) - 'c9_2strand/4MXN.pdb' saved [1225611]
+
+4mxn_A.pds 0.786827 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:33--  http://www.rcsb.org/pdb/files/2QV3.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/2QV3.pdb'
+
+2QV3.pdb                       [ <=>                                       ] 329.54K  2.09MB/s   in 0.2s   
+
+2015-12-16 15:25:34 (2.09 MB/s) - 'c9_2strand/2QV3.pdb' saved [337446]
+
+2qv3_A.pds 0.788998 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:34--  http://www.rcsb.org/pdb/files/3G06.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3G06.pdb'
+
+3G06.pdb                       [ <=>                                       ] 442.34K  2.34MB/s   in 0.2s   
+
+2015-12-16 15:25:34 (2.34 MB/s) - 'c9_2strand/3G06.pdb' saved [452952]
+
+3g06_A.pds 0.791826 FOUND!
+350 351 352 353 354
+
+3gq7_A.pds 0.809133 zero or <4 helical residues; SKIP
+
+3suc_A.pds 0.818781 FOUND!
+350 351 352 353 354
+
+3gq7_A.pds 0.820391 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:35--  http://www.rcsb.org/pdb/files/1A9N.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1A9N.pdb'
+
+1A9N.pdb                       [  <=>                                      ] 453.33K  2.11MB/s   in 0.2s   
+
+2015-12-16 15:25:35 (2.11 MB/s) - 'c9_2strand/1A9N.pdb' saved [464211]
+
+1a9n_A.pds 0.828051 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:35--  http://www.rcsb.org/pdb/files/1WWL.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1WWL.pdb'
+
+1WWL.pdb                       [ <=>                                       ] 476.43K  2.34MB/s   in 0.2s   
+
+2015-12-16 15:25:35 (2.34 MB/s) - 'c9_2strand/1WWL.pdb' saved [487863]
+
+1wwl_A.pds 0.832004 FOUND!
+350 351 352 353 354
+86 87 88 89 90
+
+4mxn_A.pds 0.832923 zero or <4 helical residues; SKIP
+
+1wwl_A.pds 0.842699 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:36--  http://www.rcsb.org/pdb/files/3B90.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3B90.pdb'
+
+3B90.pdb                       [ <=>                                       ] 343.70K  2.06MB/s   in 0.2s   
+
+2015-12-16 15:25:36 (2.06 MB/s) - 'c9_2strand/3B90.pdb' saved [351945]
+
+3b90_A.pds 0.847228 FOUND!
+350 351 352 353 354
+
+3eqn_A.pds 0.851186 FOUND!
+350 351 352 353 354
+
+3lmw_A.pds 0.86315 FOUND!
+350 351 352 353 354
+8 9 10 11
+
+--2015-12-16 15:25:36--  http://www.rcsb.org/pdb/files/4C2L.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/4C2L.pdb'
+
+4C2L.pdb                       [ <=>                                       ] 309.05K  1.87MB/s   in 0.2s   
+
+2015-12-16 15:25:36 (1.87 MB/s) - 'c9_2strand/4C2L.pdb' saved [316467]
+
+4c2l_A.pds 0.864672 zero or <4 helical residues; SKIP
+
+3eqn_A.pds 0.865352 FOUND!
+350 351 352 353 354
+
+3gq7_A.pds 0.867061 zero or <4 helical residues; SKIP
+
+3g06_A.pds 0.870695 FOUND!
+350 351 352 353 354
+26 27 28 29 30
+
+--2015-12-16 15:25:37--  http://www.rcsb.org/pdb/files/3B4N.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3B4N.pdb'
+
+3B4N.pdb                       [  <=>                                      ] 506.57K  1.49MB/s   in 0.3s   
+
+2015-12-16 15:25:37 (1.49 MB/s) - 'c9_2strand/3B4N.pdb' saved [518724]
+
+3b4n_A.pds 0.883392 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:38--  http://www.rcsb.org/pdb/files/4HWV.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/4HWV.pdb'
+
+4HWV.pdb                       [   <=>                                     ]   1.35M  2.30MB/s   in 0.6s   
+
+2015-12-16 15:25:38 (2.30 MB/s) - 'c9_2strand/4HWV.pdb' saved [1414422]
+
+4hwv_A.pds 0.884876 FOUND!
+350 351 352 353 354
+409 410 411 412 413
+417 418 419 420
+
+--2015-12-16 15:25:39--  http://www.rcsb.org/pdb/files/1Z7X.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1Z7X.pdb'
+
+1Z7X.pdb                       [  <=>                                      ] 828.35K  2.34MB/s   in 0.3s   
+
+2015-12-16 15:25:39 (2.34 MB/s) - 'c9_2strand/1Z7X.pdb' saved [848232]
+
+1z7x_W.pds 0.889074 FOUND!
+350 351 352 353 354
+16 17 18 19 20
+23 24 25 26 27
+
+--2015-12-16 15:25:39--  http://www.rcsb.org/pdb/files/3OJA.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3OJA.pdb'
+
+3OJA.pdb                       [  <=>                                      ] 793.31K  2.45MB/s   in 0.3s   
+
+2015-12-16 15:25:40 (2.45 MB/s) - 'c9_2strand/3OJA.pdb' saved [812349]
+
+3oja_A.pds 0.893591 FOUND!
+350 351 352 353 354
+334 335 336 337 338 339 340 341 342 343
+
+--2015-12-16 15:25:40--  http://www.rcsb.org/pdb/files/4Q62.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/4Q62.pdb'
+
+4Q62.pdb                       [   <=>                                     ] 581.24K  1004KB/s   in 0.6s   
+
+2015-12-16 15:25:41 (1004 KB/s) - 'c9_2strand/4Q62.pdb' saved [595188]
+
+4q62_A.pds 0.901691 FOUND!
+350 351 352 353 354
+52 53 54 55 56
+
+--2015-12-16 15:25:41--  http://www.rcsb.org/pdb/files/2ID5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/2ID5.pdb'
+
+2ID5.pdb                       [    <=>                                    ]   1.42M  1.97MB/s   in 0.7s   
+
+2015-12-16 15:25:42 (1.97 MB/s) - 'c9_2strand/2ID5.pdb' saved [1484325]
+
+2id5_A.pds 0.903613 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:42--  http://www.rcsb.org/pdb/files/3UL8.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3UL8.pdb'
+
+3UL8.pdb                       [ <=>                                       ] 222.67K  --.-KB/s   in 0.1s   
+
+2015-12-16 15:25:42 (1.69 MB/s) - 'c9_2strand/3UL8.pdb' saved [228015]
+
+3ul8_A.pds 0.910527 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:42--  http://www.rcsb.org/pdb/files/4FCG.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/4FCG.pdb'
+
+4FCG.pdb                       [  <=>                                      ] 442.02K  2.10MB/s   in 0.2s   
+
+2015-12-16 15:25:42 (2.10 MB/s) - 'c9_2strand/4FCG.pdb' saved [452628]
+
+4fcg_A.pds 0.912707 FOUND!
+350 351 352 353 354
+33 34 35 36 37
+58 59 60 61
+83 84 85 86 87
+
+--2015-12-16 15:25:43--  http://www.rcsb.org/pdb/files/1BHE.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1BHE.pdb'
+
+1BHE.pdb                       [ <=>                                       ] 274.96K  --.-KB/s   in 0.1s   
+
+2015-12-16 15:25:43 (1.85 MB/s) - 'c9_2strand/1BHE.pdb' saved [281556]
+
+1bhe_A.pds 0.912964 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:43--  http://www.rcsb.org/pdb/files/1QQ1.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1QQ1.pdb'
+
+1QQ1.pdb                       [  <=>                                      ] 377.95K  1.24MB/s   in 0.3s   
+
+2015-12-16 15:25:43 (1.24 MB/s) - 'c9_2strand/1QQ1.pdb' saved [387018]
+
+1qq1_A.pds 0.918408 FOUND!
+350 351 352 353 354
+
+3suc_A.pds 0.920749 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:44--  http://www.rcsb.org/pdb/files/3RFJ.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3RFJ.pdb'
+
+3RFJ.pdb                       [  <=>                                      ] 213.89K   419KB/s   in 0.5s   
+
+2015-12-16 15:25:44 (419 KB/s) - 'c9_2strand/3RFJ.pdb' saved [219024]
+
+3rfj_A.pds 0.927858 FOUND!
+350 351 352 353 354
+
+3lmw_A.pds 0.928226 FOUND!
+350 351 352 353 354
+8 9 10 11
+
+4fcg_A.pds 0.930586 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:45--  http://www.rcsb.org/pdb/files/3O53.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3O53.pdb'
+
+3O53.pdb                       [  <=>                                      ] 500.87K  1.37MB/s   in 0.4s   
+
+2015-12-16 15:25:45 (1.37 MB/s) - 'c9_2strand/3O53.pdb' saved [512892]
+
+3o53_A.pds 0.930754 FOUND!
+350 351 352 353 354
+
+3eqn_A.pds 0.931707 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:45--  http://www.rcsb.org/pdb/files/2A0Z.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/2A0Z.pdb'
+
+2A0Z.pdb                       [  <=>                                      ] 588.99K  1.52MB/s   in 0.4s   
+
+2015-12-16 15:25:46 (1.52 MB/s) - 'c9_2strand/2A0Z.pdb' saved [603126]
+
+2a0z_A.pds 0.932823 FOUND!
+350 351 352 353 354
+191 192 193 194
+
+--2015-12-16 15:25:46--  http://www.rcsb.org/pdb/files/3CVR.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/3CVR.pdb'
+
+3CVR.pdb                       [  <=>                                      ] 353.82K  1.40MB/s   in 0.2s   
+
+2015-12-16 15:25:46 (1.40 MB/s) - 'c9_2strand/3CVR.pdb' saved [362313]
+
+3cvr_A.pds 0.935798 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:47--  http://www.rcsb.org/pdb/files/1EE6.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/1EE6.pdb'
+
+1EE6.pdb                       [ <=>                                       ] 162.95K  --.-KB/s   in 0.1s   
+
+2015-12-16 15:25:47 (1.23 MB/s) - 'c9_2strand/1EE6.pdb' saved [166860]
+
+1ee6_A.pds 0.935948 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:47--  http://www.rcsb.org/pdb/files/2PYG.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/2PYG.pdb'
+
+2PYG.pdb                       [    <=>                                    ] 525.39K   744KB/s   in 0.7s   
+
+2015-12-16 15:25:48 (744 KB/s) - 'c9_2strand/2PYG.pdb' saved [538002]
+
+2pyg_A.pds 0.945481 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:25:48--  http://www.rcsb.org/pdb/files/4LXR.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/4LXR.pdb'
+
+4LXR.pdb                       [    <=>                                    ]   1.26M  1.68MB/s   in 0.7s   
+
+2015-12-16 15:25:49 (1.68 MB/s) - 'c9_2strand/4LXR.pdb' saved [1321191]
+
+4lxr_A.pds 0.947905 FOUND!
+350 351 352 353 354
+
+1bhe_A.pds 0.947975 zero or <4 helical residues; SKIP
+
+3suc_A.pds 0.950813 zero or <4 helical residues; SKIP
+
+1z7x_W.pds 0.951735 FOUND!
+350 351 352 353 354
+106 107 108 109 110
+134 135 136 137
+
+1bhe_A.pds 0.952092 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:25:50--  http://www.rcsb.org/pdb/files/2P1M.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'c9_2strand/2P1M.pdb'
+
+2P1M.pdb                       [  <=>                                      ]   1009K  2.46MB/s   in 0.4s   
+
+2015-12-16 15:25:50 (2.46 MB/s) - 'c9_2strand/2P1M.pdb' saved [1032993]
+
+2p1m_B.pds 0.954693 FOUND!
+350 351 352 353 354
+69 70 71 72 73
+465 466 467 468 469 470
+494 495 496 497 498
+
+
+#########################################################
+################## START OF 2 FULL HISTORY ##############
+#########################################################
+
+otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py full_2strand.pdb full_2strand.pds.m 
+Entering matches for full_2strand 
+
+--2015-12-16 15:29:39--  http://www.rcsb.org/pdb/files/1VH4.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/1VH4.pdb'
+
+1VH4.pdb                       [  <=>                                      ] 587.41K  2.21MB/s   in 0.3s   
+
+2015-12-16 15:29:39 (2.21 MB/s) - 'full_2strand/1VH4.pdb' saved [601506]
+
+1vh4_A.pds 1.37845 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:29:40--  http://www.rcsb.org/pdb/files/4DN7.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/4DN7.pdb'
+
+4DN7.pdb                       [   <=>                                     ]   1.12M  2.51MB/s   in 0.4s   
+
+2015-12-16 15:29:40 (2.51 MB/s) - 'full_2strand/4DN7.pdb' saved [1174419]
+
+4dn7_A.pds 1.38789 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 1.43232 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 1.55642 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 1.61061 FOUND!
+350 351 352 353 354
+378 379 380 381 382 383 384
+393 394 395 396 397 398 399 400
+
+--2015-12-16 15:29:41--  http://www.rcsb.org/pdb/files/3SF5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/3SF5.pdb'
+
+3SF5.pdb                       [    <=>                                    ] 696.17K  1.11MB/s   in 0.6s   
+
+2015-12-16 15:29:41 (1.11 MB/s) - 'full_2strand/3SF5.pdb' saved [712881]
+
+3sf5_B.pds 1.62203 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 1.64087 FOUND!
+350 351 352 353 354
+7 8 9 10 11
+44 45 46 47
+114 115 116 117 118 119 120 121 122
+
+4dn7_A.pds 1.65523 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 1.66862 FOUND!
+350 351 352 353 354
+43 44 45 46 47
+114 115 116 117 118 119 120
+
+4dn7_A.pds 1.69244 FOUND!
+350 351 352 353 354
+100 101 102 103
+116 117 118 119 120 121 122
+
+4dn7_A.pds 1.72692 FOUND!
+350 351 352 353 354
+116 117 118 119 120 121 122 123
+
+1vh4_A.pds 1.73748 FOUND!
+350 351 352 353 354
+43 44 45 46 47
+114 115 116 117
+
+1vh4_A.pds 1.75456 FOUND!
+350 351 352 353 354
+385 386 387 388 389
+393 394 395 396 397 398 399 400 401
+
+3sf5_B.pds 1.75881 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 1.75908 FOUND!
+350 351 352 353 354
+377 378 379 380 381 382 383 384 385 386 387 388
+
+4dn7_A.pds 1.77406 FOUND!
+350 351 352 353 354
+381 382 383 384
+389 390 391 392 393 394 395 396 397 398 399 400
+
+4dn7_A.pds 1.85752 FOUND!
+350 351 352 353 354
+116 117 118 119
+
+1vh4_A.pds 1.90157 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 1.91068 FOUND!
+350 351 352 353 354
+378 379 380 381 382 383 384
+400 401 402 403 404 405
+
+1vh4_A.pds 1.92282 FOUND!
+350 351 352 353 354
+377 378 379 380 381 382 383 384 385 386 387 388
+401 402 403 404 405 406
+
+--2015-12-16 15:29:44--  http://www.rcsb.org/pdb/files/4DT5.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/4DT5.pdb'
+
+4DT5.pdb                       [  <=>                                      ] 393.69K  1001KB/s   in 0.4s   
+
+2015-12-16 15:29:44 (1001 KB/s) - 'full_2strand/4DT5.pdb' saved [403137]
+
+4dt5_A.pds 2.06859 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.10656 FOUND!
+350 351 352 353 354
+384 385 386 387 388 389
+397 398 399 400 401 402 403 404 405 406
+
+--2015-12-16 15:29:45--  http://www.rcsb.org/pdb/files/3U1K.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/3U1K.pdb'
+
+3U1K.pdb                       [     <=>                                   ]   1.64M  1.66MB/s   in 1.0s   
+
+2015-12-16 15:29:46 (1.66 MB/s) - 'full_2strand/3U1K.pdb' saved [1722789]
+
+3u1k_A.pds 2.11742 FOUND!
+350 351 352 353 354
+78 79 80 81 82
+289 290 291 292 293
+365 366 367 368 369
+
+4dn7_A.pds 2.15094 FOUND!
+350 351 352 353 354
+116 117 118 119 120 121 122 123
+
+1vh4_A.pds 2.17219 FOUND!
+350 351 352 353 354
+393 394 395 396 397 398 399 400 401 402 403 404
+
+--2015-12-16 15:29:47--  http://www.rcsb.org/pdb/files/4AGI.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/4AGI.pdb'
+
+4AGI.pdb                       [  <=>                                      ] 996.44K  2.56MB/s   in 0.4s   
+
+2015-12-16 15:29:47 (2.56 MB/s) - 'full_2strand/4AGI.pdb' saved [1020357]
+
+4agi_A.pds 2.17556 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 2.17702 FOUND!
+350 351 352 353 354
+370 371 372 373 374 375 376 377 378 379 380 381 382 383 384
+400 401 402 403 404 405
+
+1vh4_A.pds 2.20625 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.20724 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.21492 FOUND!
+350 351 352 353 354
+380 381 382 383 384 385 386 387 388
+401 402 403 404 405 406
+
+--2015-12-16 15:29:48--  http://www.rcsb.org/pdb/files/4GPV.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/4GPV.pdb'
+
+4GPV.pdb                       [  <=>                                      ] 889.26K  2.24MB/s   in 0.4s   
+
+2015-12-16 15:29:48 (2.24 MB/s) - 'full_2strand/4GPV.pdb' saved [910602]
+
+4gpv_A.pds 2.2304 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 2.27161 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 2.27216 FOUND!
+350 351 352 353 354
+373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388
+
+4dn7_A.pds 2.27563 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.28502 FOUND!
+350 351 352 353 354
+43 44 45 46 47
+114 115 116 117 118 119 120
+
+1vh4_A.pds 2.29333 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.29341 FOUND!
+350 351 352 353 354
+380 381 382 383 384
+
+4dn7_A.pds 2.30243 FOUND!
+350 351 352 353 354
+393 394 395 396 397 398 399 400
+
+1vh4_A.pds 2.30602 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.32056 FOUND!
+350 351 352 353 354
+
+4dn7_A.pds 2.32807 zero or <4 helical residues; SKIP
+
+1vh4_A.pds 2.33219 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:29:50--  http://www.rcsb.org/pdb/files/3VDI.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/3VDI.pdb'
+
+3VDI.pdb                       [  <=>                                      ] 637.24K  1.71MB/s   in 0.4s   
+
+2015-12-16 15:29:51 (1.71 MB/s) - 'full_2strand/3VDI.pdb' saved [652536]
+
+3vdi_A.pds 2.33564 zero or <4 helical residues; SKIP
+
+4dn7_A.pds 2.338 FOUND!
+350 351 352 353 354
+400 401 402 403 404 405
+
+4dn7_A.pds 2.35088 FOUND!
+350 351 352 353 354
+
+1vh4_A.pds 2.35636 FOUND!
+350 351 352 353 354
+373 374 375 376 377 378 379 380 381
+
+4dn7_A.pds 2.35653 FOUND!
+350 351 352 353 354
+374 375 376 377 378 379 380 381 382 383 384
+
+1vh4_A.pds 2.35978 zero or <4 helical residues; SKIP
+
+--2015-12-16 15:29:52--  http://www.rcsb.org/pdb/files/4QRK.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/4QRK.pdb'
+
+4QRK.pdb                       [ <=>                                       ] 314.75K  1.77MB/s   in 0.2s   
+
+2015-12-16 15:29:52 (1.77 MB/s) - 'full_2strand/4QRK.pdb' saved [322299]
+
+4qrk_A.pds 2.36244 FOUND!
+350 351 352 353 354
+
+--2015-12-16 15:29:52--  http://www.rcsb.org/pdb/files/3F83.pdb
+Resolving www.rcsb.org... 132.249.231.10
+Connecting to www.rcsb.org|132.249.231.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified
+Saving to: 'full_2strand/3F83.pdb'
+
+3F83.pdb                       [  <=>                                      ] 373.91K  1.82MB/s   in 0.2s   
+
+2015-12-16 15:29:52 (1.82 MB/s) - 'full_2strand/3F83.pdb' saved [382887]
+
+3f83_A.pds 2.36419 FOUND!
+350 351 352 353 354
+139 140 141 142
+
