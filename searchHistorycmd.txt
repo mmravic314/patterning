@@ -12,4 +12,4 @@
 > for i in *.pds; do ~/termanal/master --query $i --targetList ~/termanal/support.default/151218_masterDB_oPDB/list.txt --rmsdCut 3.2 --topN 100 --matchOut $i.m --structOut $i.struct ; done
 
 ## look into match lists and go copy the parsed createPDS output pdbs from main database into a subdirectory ( to look up hits and surrounding residues)
->
+> python pdbSubsetFind.py ~/peptideAmyloid/searchFrags
