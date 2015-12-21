@@ -1,4 +1,4 @@
-REMARK Selection 'resnum 270 271 ...304 305 306 307'
+REMARK 2.56856 tmp/matchEXT.pds [(0,13), (20,33)] 2.56856
 ATOM      1  N   GLU A 243     -21.925  12.827   5.287  1.00 20.09           N
 ATOM      2  CA  GLU A 243     -21.743  14.294   5.168  1.00 22.01           C
 ATOM      3  C   GLU A 243     -21.845  14.820   3.738  1.00 22.83           C

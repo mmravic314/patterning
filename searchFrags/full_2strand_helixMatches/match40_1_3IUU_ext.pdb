@@ -1,4 +1,4 @@
-REMARK Selection 'resnum 46 47 48... 69 70 71 72 73'
+REMARK 2.70062 tmp/matchEXT.pds [(0,13), (26,39)] 2.70062
 ATOM      1  N   ARG A   4     -18.688  11.979   7.292  1.00 21.28           N
 ATOM      2  CA  ARG A   4     -18.874  13.418   7.414  1.00 21.73           C
 ATOM      3  C   ARG A   4     -18.674  14.084   6.064  1.00 21.69           C

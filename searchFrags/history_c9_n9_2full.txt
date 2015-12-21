@@ -1,1330 +1,2288 @@
-
-#########################################################
-################## START OF N9-2 HISTORY ##############
-#########################################################
-
-
-otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
+xray@dgl-xray:~/peptideAmyloid/searchFrags$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m  n9_2strand.pds.struct ~/peptideAmyloid/masterSubDir/ ~/termanal/
 Entering matches for n9_2strand 
 
-4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
+4DT5.pds 0.431291 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-4dn7_A.pds 0.481403 FOUND!
-350 351 352 353 354
-380 381 382 383 384
+4DT5.pds 0.440859 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.494888 FOUND!
-350 351 352 353 354
-384 385 386 387 388 389
+4DT5.pds 0.589174 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.49898 FOUND!
-350 351 352 353 354
-384 385 386 387 388
+4DT5.pds 0.612833 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+no valid helical segments found
 
-4dn7_A.pds 0.538974 zero or <4 helical residues; SKIP
+4DT5.pds 0.619643 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.542911 FOUND!
-350 351 352 353 354
+4DT5.pds 0.622933 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-4dn7_A.pds 0.569795 FOUND!
-350 351 352 353 354
-381 382 383 384
-389 390 391 392 393
+4DT5.pds 0.630013 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.58037 FOUND!
-350 351 352 353 354
+4DT5.pds 0.642675 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+no valid helical segments found
 
-4dn7_A.pds 0.591733 FOUND!
-350 351 352 353 354
-381 382 383 384
+4DT5.pds 0.652577 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+no valid helical segments found
 
-4dn7_A.pds 0.593171 FOUND!
-350 351 352 353 354
-381 382 383 384
+4DT5.pds 0.655703 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-4dt5_A.pds 0.612833 zero or <4 helical residues; SKIP
+4DT5.pds 0.65991 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-4dt5_A.pds 0.619643 zero or <4 helical residues; SKIP
+4DT5.pds 0.661744 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+no valid helical segments found
 
-1vh4_A.pds 0.619997 FOUND!
-350 351 352 353 354
+4DT5.pds 0.667134 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-4dt5_A.pds 0.622933 zero or <4 helical residues; SKIP
+4DT5.pds 0.673117 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-2r9y_A.pds 0.625699 FOUND!
-350 351 352 353 354
-38 39 40 41 42 43 44 45 46 47 48 49 50
-277 278 279 280 281
-286 287 288 289
+4OPW.pds 0.677059 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
 
-4dt5_A.pds 0.630013 zero or <4 helical residues; SKIP
+4QRK.pds 0.690886 /home/xray/peptideAmyloid/masterSubDir/4QRK.pdb
+no valid helical segments found
 
-3sf5_B.pds 0.634359 zero or <4 helical residues; SKIP
+4DT5.pds 0.69539 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+no valid helical segments found
 
-4dn7_A.pds 0.640088 FOUND!
-350 351 352 353 354
-377 378 379 380 381 382 383 384
+3V55.pds 0.701262 /home/xray/peptideAmyloid/masterSubDir/3V55.pdb
+FOUND!
+n9_2strand_helixMatches/match18_0_3V55.pdb
+Target structure match18_0_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.701262 tmp/matchEXT.pds [(16,24), (25,33)] 0.701262
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
 
-1vh4_A.pds 0.642419 FOUND!
-350 351 352 353 354
+n9_2strand_helixMatches/match18_1_3V55.pdb
+Target structure match18_1_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.701262 tmp/matchEXT.pds [(0,8), (9,17)] 0.701262
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
 
-4dn7_A.pds 0.64895 FOUND!
-350 351 352 353 354
-377 378 379 380 381
 
-4dn7_A.pds 0.652072 FOUND!
-350 351 352 353 354
-378 379 380 381 382 383 384
-393 394 395 396 397
+4OPW.pds 0.702475 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
 
-4dt5_A.pds 0.661744 zero or <4 helical residues; SKIP
+4OPW.pds 0.706396 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.662129 FOUND!
-350 351 352 353 354
-384 385 386 387 388
+4DT5.pds 0.707143 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-3sf5_B.pds 0.666342 zero or <4 helical residues; SKIP
+4DT5.pds 0.714 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-4dt5_A.pds 0.667134 FOUND!
-350 351 352 353 354
+4KU0.pds 0.716856 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
 
-4dt5_A.pds 0.673117 zero or <4 helical residues; SKIP
+4KU0.pds 0.719033 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
 
-3sf5_B.pds 0.677005 zero or <4 helical residues; SKIP
+4OPW.pds 0.720584 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
 
-1zh8_A.pds 0.677022 zero or <4 helical residues; SKIP
+4DT5.pds 0.72245 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.681137 FOUND!
-350 351 352 353 354
-114 115 116 117 118 119 120 121
+4DT5.pds 0.724033 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-3sf5_B.pds 0.683531 zero or <4 helical residues; SKIP
+4KU0.pds 0.726257 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.686216 zero or <4 helical residues; SKIP
+4DT5.pds 0.727157 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+4OPW.pds 0.728157 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
 
-4qrk_A.pds 0.690886 FOUND!
-350 351 352 353 354
+4KU0.pds 0.728585 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
 
-3sf5_B.pds 0.692641 zero or <4 helical residues; SKIP
+4KU0.pds 0.731698 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4KU0.pds 0.733901 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+4KU0.pds 0.737534 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4DT5.pds 0.73776 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
 
-1imv_A.pds 0.693306 FOUND!
-350 351 352 353 354
-143 144 145 146 147 148 149 150 151 152 153
+4KU0.pds 0.74411 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
 
-1vh4_A.pds 0.715583 FOUND!
-350 351 352 353 354
-114 115 116 117 118 119 120 121 122
-
-4dn7_A.pds 0.719873 FOUND!
-350 351 352 353 354
-116 117 118 119 120 121 122 123
-
-1vh4_A.pds 0.720429 FOUND!
-350 351 352 353 354
-
-4dt5_A.pds 0.72245 zero or <4 helical residues; SKIP
-
-4f6o_A.pds 0.726323 FOUND!
-350 351 352 353 354
-104 105 106 107 108 109 110 111 112 113 114 115
-157 158 159 160 161 162
-
-4dt5_A.pds 0.727157 zero or <4 helical residues; SKIP
-
-3sf5_B.pds 0.735344 zero or <4 helical residues; SKIP
-
-4dt5_A.pds 0.73776 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.739021 FOUND!
-350 351 352 353 354
-380 381 382 383 384 385 386 387 388
-401 402 403 404 405
-
-1vh4_A.pds 0.748594 zero or <4 helical residues; SKIP
-
-1sng_A.pds 0.749853 FOUND!
-350 351 352 353 354
-38 39 40 41
-44 45 46 47 48 49
-
-4dn7_A.pds 0.750365 zero or <4 helical residues; SKIP
-
-3kd4_A.pds 0.755454 zero or <4 helical residues; SKIP
-
-4dn7_A.pds 0.756372 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.757323 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:18:17--  http://www.rcsb.org/pdb/files/3JX8.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/3JX8.pdb.1'
-
-3JX8.pdb.1                     [    <=>                                    ]   1.16M  1.81MB/s   in 0.6s   
-
-2015-12-16 15:18:18 (1.81 MB/s) - 'n9_2strand/3JX8.pdb.1' saved [1216620]
-
-@> WARNING Atomic data could not be parsed, please check the input file.
-3jx8_A.pds 0.757891
-Traceback (most recent call last):
-  File "/Users/mmravic/bin/matchLookup.py", line 114, in <module>
-    writePDB( pdbPath, parsePDB( pact, chain = chID ).select( 'protein' ) )
-AttributeError: 'NoneType' object has no attribute 'select'
-otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
-Entering matches for n9_2strand 
-
---2015-12-16 15:20:07--  http://www.rcsb.org/pdb/files/4DT5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4DT5.pdb'
-
-4DT5.pdb                       [  <=>                                      ] 393.69K  1.91MB/s   in 0.2s   
-
-2015-12-16 15:20:08 (1.91 MB/s) - 'n9_2strand/4DT5.pdb' saved [403137]
-
-4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
-
---2015-12-16 15:20:08--  http://www.rcsb.org/pdb/files/4DN7.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4DN7.pdb'
-
-4DN7.pdb                       [       <=>                                 ]   1.12M   769KB/s   in 1.5s   
-
-2015-12-16 15:20:09 (769 KB/s) - 'n9_2strand/4DN7.pdb' saved [1174419]
-
-4dn7_A.pds 0.481403 FOUND!
-350 351 352 353 354
-Traceback (most recent call last):
-  File "/Users/mmravic/bin/matchLookup.py", line 254, in <module>
-    if hsel != extsel:
-NameError: name 'extsel' is not defined
-otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
-Entering matches for n9_2strand 
-
---2015-12-16 15:20:27--  http://www.rcsb.org/pdb/files/4DT5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4DT5.pdb'
-
-4DT5.pdb                       [  <=>                                      ] 393.69K  1.36MB/s   in 0.3s   
-
-2015-12-16 15:20:28 (1.36 MB/s) - 'n9_2strand/4DT5.pdb' saved [403137]
-
-4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
-
---2015-12-16 15:20:28--  http://www.rcsb.org/pdb/files/4DN7.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4DN7.pdb'
-
-4DN7.pdb                       [   <=>                                     ]   1.12M  1.88MB/s   in 0.6s   
-
-2015-12-16 15:20:28 (1.88 MB/s) - 'n9_2strand/4DN7.pdb' saved [1174419]
-
-4dn7_A.pds 0.481403 FOUND!
-350 351 352 353 354
-Traceback (most recent call last):
-  File "/Users/mmravic/bin/matchLookup.py", line 254, in <module>
-    if hsel != extsel:
-NameError: name 'extsel' is not defined
-otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m 
-Entering matches for n9_2strand 
-
---2015-12-16 15:21:29--  http://www.rcsb.org/pdb/files/4DT5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4DT5.pdb'
-
-4DT5.pdb                       [  <=>                                      ] 393.69K  1.85MB/s   in 0.2s   
-
-2015-12-16 15:21:30 (1.85 MB/s) - 'n9_2strand/4DT5.pdb' saved [403137]
-
-4dt5_A.pds 0.440859 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:30--  http://www.rcsb.org/pdb/files/4DN7.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4DN7.pdb'
-
-4DN7.pdb                       [     <=>                                   ]   1.12M  1006KB/s   in 1.1s   
-
-2015-12-16 15:21:31 (1006 KB/s) - 'n9_2strand/4DN7.pdb' saved [1174419]
-
-4dn7_A.pds 0.481403 FOUND!
-350 351 352 353 354
-380 381 382 383 384
-
---2015-12-16 15:21:32--  http://www.rcsb.org/pdb/files/1VH4.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/1VH4.pdb'
-
-1VH4.pdb                       [  <=>                                      ] 587.41K  1.59MB/s   in 0.4s   
-
-2015-12-16 15:21:32 (1.59 MB/s) - 'n9_2strand/1VH4.pdb' saved [601506]
-
-1vh4_A.pds 0.494888 FOUND!
-350 351 352 353 354
-384 385 386 387 388 389
-
-1vh4_A.pds 0.49898 FOUND!
-350 351 352 353 354
-384 385 386 387 388
-
-4dn7_A.pds 0.538974 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.542911 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 0.569795 FOUND!
-350 351 352 353 354
-381 382 383 384
-389 390 391 392 393
-
-1vh4_A.pds 0.58037 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 0.591733 FOUND!
-350 351 352 353 354
-381 382 383 384
-
-4dn7_A.pds 0.593171 FOUND!
-350 351 352 353 354
-381 382 383 384
-
-4dt5_A.pds 0.612833 zero or <4 helical residues; SKIP
-
-4dt5_A.pds 0.619643 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.619997 FOUND!
-350 351 352 353 354
-
-4dt5_A.pds 0.622933 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:33--  http://www.rcsb.org/pdb/files/2R9Y.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/2R9Y.pdb'
-
-2R9Y.pdb                       [  <=>                                      ] 299.08K   530KB/s   in 0.6s   
-
-2015-12-16 15:21:34 (530 KB/s) - 'n9_2strand/2R9Y.pdb' saved [306261]
-
-2r9y_A.pds 0.625699 FOUND!
-350 351 352 353 354
-38 39 40 41 42 43 44 45 46 47 48 49 50
-277 278 279 280 281
-286 287 288 289
-
-4dt5_A.pds 0.630013 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:34--  http://www.rcsb.org/pdb/files/3SF5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/3SF5.pdb'
-
-3SF5.pdb                       [   <=>                                     ] 696.17K   912KB/s   in 0.8s   
-
-2015-12-16 15:21:35 (912 KB/s) - 'n9_2strand/3SF5.pdb' saved [712881]
-
-3sf5_B.pds 0.634359 zero or <4 helical residues; SKIP
-
-4dn7_A.pds 0.640088 FOUND!
-350 351 352 353 354
-377 378 379 380 381 382 383 384
-
-1vh4_A.pds 0.642419 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 0.64895 FOUND!
-350 351 352 353 354
-377 378 379 380 381
-
-4dn7_A.pds 0.652072 FOUND!
-350 351 352 353 354
-378 379 380 381 382 383 384
-393 394 395 396 397
-
-4dt5_A.pds 0.661744 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.662129 FOUND!
-350 351 352 353 354
-384 385 386 387 388
-
-3sf5_B.pds 0.666342 zero or <4 helical residues; SKIP
-
-4dt5_A.pds 0.667134 FOUND!
-350 351 352 353 354
-
-4dt5_A.pds 0.673117 zero or <4 helical residues; SKIP
-
-3sf5_B.pds 0.677005 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:36--  http://www.rcsb.org/pdb/files/1ZH8.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/1ZH8.pdb'
-
-1ZH8.pdb                       [  <=>                                      ] 502.29K  1.79MB/s   in 0.3s   
-
-2015-12-16 15:21:36 (1.79 MB/s) - 'n9_2strand/1ZH8.pdb' saved [514350]
-
-1zh8_A.pds 0.677022 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.681137 FOUND!
-350 351 352 353 354
-114 115 116 117 118 119 120 121
-
-3sf5_B.pds 0.683531 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.686216 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:37--  http://www.rcsb.org/pdb/files/4QRK.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4QRK.pdb'
-
-4QRK.pdb                       [  <=>                                      ] 314.75K  1.44MB/s   in 0.2s   
-
-2015-12-16 15:21:37 (1.44 MB/s) - 'n9_2strand/4QRK.pdb' saved [322299]
-
-4qrk_A.pds 0.690886 FOUND!
-350 351 352 353 354
-
-3sf5_B.pds 0.692641 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:37--  http://www.rcsb.org/pdb/files/1IMV.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/1IMV.pdb'
-
-1IMV.pdb                       [  <=>                                      ] 272.43K   503KB/s   in 0.5s   
-
-2015-12-16 15:21:38 (503 KB/s) - 'n9_2strand/1IMV.pdb' saved [278964]
-
-1imv_A.pds 0.693306 FOUND!
-350 351 352 353 354
-143 144 145 146 147 148 149 150 151 152 153
-
-1vh4_A.pds 0.715583 FOUND!
-350 351 352 353 354
-114 115 116 117 118 119 120 121 122
-
-4dn7_A.pds 0.719873 FOUND!
-350 351 352 353 354
-116 117 118 119 120 121 122 123
-
-1vh4_A.pds 0.720429 FOUND!
-350 351 352 353 354
-
-4dt5_A.pds 0.72245 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:38--  http://www.rcsb.org/pdb/files/4F6O.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/4F6O.pdb'
-
-4F6O.pdb                       [  <=>                                      ] 225.44K  1.00MB/s   in 0.2s   
-
-2015-12-16 15:21:39 (1.00 MB/s) - 'n9_2strand/4F6O.pdb' saved [230850]
-
-4f6o_A.pds 0.726323 FOUND!
-350 351 352 353 354
-104 105 106 107 108 109 110 111 112 113 114 115
-157 158 159 160 161 162
-
-4dt5_A.pds 0.727157 zero or <4 helical residues; SKIP
-
-3sf5_B.pds 0.735344 zero or <4 helical residues; SKIP
-
-4dt5_A.pds 0.73776 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.739021 FOUND!
-350 351 352 353 354
-380 381 382 383 384 385 386 387 388
-401 402 403 404 405
-
-1vh4_A.pds 0.748594 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:39--  http://www.rcsb.org/pdb/files/1SNG.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/1SNG.pdb'
-
-1SNG.pdb                       [  <=>                                      ] 294.89K   807KB/s   in 0.4s   
-
-2015-12-16 15:21:40 (807 KB/s) - 'n9_2strand/1SNG.pdb' saved [301968]
-
-1sng_A.pds 0.749853 FOUND!
-350 351 352 353 354
-38 39 40 41
-44 45 46 47 48 49
-
-4dn7_A.pds 0.750365 zero or <4 helical residues; SKIP
-
---2015-12-16 15:21:40--  http://www.rcsb.org/pdb/files/3KD4.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/3KD4.pdb'
-
-3KD4.pdb                       [       <=>                                 ] 824.63K   482KB/s   in 1.7s   
-
-2015-12-16 15:21:42 (482 KB/s) - 'n9_2strand/3KD4.pdb' saved [844425]
-
-3kd4_A.pds 0.755454 zero or <4 helical residues; SKIP
-
-4dn7_A.pds 0.756372 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 0.757323 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:21:42--  http://www.rcsb.org/pdb/files/3JX8.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'n9_2strand/3JX8.pdb'
-
-3JX8.pdb                       [    <=>                                    ]   1.16M  1.85MB/s   in 0.6s   
-
-2015-12-16 15:21:43 (1.85 MB/s) - 'n9_2strand/3JX8.pdb' saved [1216620]
-
-3jx8_A.pds 0.757891 FOUND!
-350 351 352 353 354
-
-
-
-
-
-#########################################################
-################## START OF C9-2 HISTORY ##############
-#########################################################
-
-
-
-
-otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py c9_2strand.pdb c9_2strand.pds.m 
+4KU0.pds 0.749665 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+4KU0.pds 0.756961 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+4KU0.pds 0.75836 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+4KU0.pds 0.777364 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4OPW.pds 0.778448 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
+
+4KU0.pds 0.789429 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+4KU0.pds 0.791475 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4KU0.pds 0.797006 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4KU0.pds 0.8033 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4AF8.pds 0.808533 /home/xray/peptideAmyloid/masterSubDir/4AF8.pdb
+FOUND!
+n9_2strand_helixMatches/match46_0_4AF8.pdb
+Error: could not read file n9_2strand_helixMatches/match46_0_4AF8_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+n9_2strand_helixMatches/match46_1_4AF8.pdb
+Target structure match46_1_4AF8_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.808533 tmp/matchEXT.pds [(0,8), (9,17)] 0.808533
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4DT5.pds 0.824822 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+4KU0.pds 0.825527 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+3EOJ.pds 0.825755 /home/xray/peptideAmyloid/masterSubDir/3EOJ.pdb
+FOUND!
+n9_2strand_helixMatches/match49_0_3EOJ.pdb
+Target structure match49_0_3EOJ_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.825755 tmp/matchEXT.pds [(9,17), (0,8)] 0.825755
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3S5T.pds 0.832612 /home/xray/peptideAmyloid/masterSubDir/3S5T.pdb
+FOUND!
+n9_2strand_helixMatches/match50_0_3S5T.pdb
+Target structure match50_0_3S5T_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.832612 tmp/matchEXT.pds [(0,8), (25,33)] 0.832612
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match50_1_3S5T.pdb
+Target structure match50_1_3S5T_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.832612 tmp/matchEXT.pds [(0,8), (38,46)] 0.832612
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3MOI.pds 0.836048 /home/xray/peptideAmyloid/masterSubDir/3MOI.pdb
+FOUND!
+n9_2strand_helixMatches/match51_0_3MOI.pdb
+Target structure match51_0_3MOI_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.836048 tmp/matchEXT.pds [(0,8), (9,17)] 0.836048
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4DT5.pds 0.837951 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+1VKO.pds 0.838707 /home/xray/peptideAmyloid/masterSubDir/1VKO.pdb
+no valid helical segments found
+
+4AF8.pds 0.840121 /home/xray/peptideAmyloid/masterSubDir/4AF8.pdb
+FOUND!
+n9_2strand_helixMatches/match54_0_4AF8.pdb
+Target structure match54_0_4AF8_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.840121 tmp/matchEXT.pds [(23,31), (14,22)] 0.840121
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match54_1_4AF8.pdb
+Target structure match54_1_4AF8_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.840121 tmp/matchEXT.pds [(20,28), (0,8)] 0.840121
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4DT5.pds 0.852886 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+3S5T.pds 0.860761 /home/xray/peptideAmyloid/masterSubDir/3S5T.pdb
+zero or <4 helical residues; SKIP
+
+3V55.pds 0.862084 /home/xray/peptideAmyloid/masterSubDir/3V55.pdb
+FOUND!
+n9_2strand_helixMatches/match57_0_3V55.pdb
+Target structure match57_0_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.862084 tmp/matchEXT.pds [(0,8), (26,34)] 0.862084
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match57_1_3V55.pdb
+Target structure match57_1_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.862084 tmp/matchEXT.pds [(0,8), (9,17)] 0.862084
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3MOI.pds 0.862951 /home/xray/peptideAmyloid/masterSubDir/3MOI.pdb
+FOUND!
+n9_2strand_helixMatches/match58_0_3MOI.pdb
+Target structure match58_0_3MOI_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.862951 tmp/matchEXT.pds [(13,21), (0,8)] 0.862951
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match58_1_3MOI.pdb
+Target structure match58_1_3MOI_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.862951 tmp/matchEXT.pds [(21,29), (0,8)] 0.862951
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3ON9.pds 0.868195 /home/xray/peptideAmyloid/masterSubDir/3ON9.pdb
+no valid helical segments found
+
+4DT5.pds 0.885539 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+3EOJ.pds 0.886848 /home/xray/peptideAmyloid/masterSubDir/3EOJ.pdb
+FOUND!
+n9_2strand_helixMatches/match61_0_3EOJ.pdb
+Target structure match61_0_3EOJ_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.886848 tmp/matchEXT.pds [(9,17), (0,8)] 0.886848
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4KU0.pds 0.891007 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+2WXY.pds 0.899474 /home/xray/peptideAmyloid/masterSubDir/2WXY.pdb
+FOUND!
+n9_2strand_helixMatches/match63_0_2WXY.pdb
+Target structure match63_0_2WXY_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.899474 tmp/matchEXT.pds [(15,23), (24,32)] 0.899474
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4DT5.pds 0.902283 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+4G2A.pds 0.902912 /home/xray/peptideAmyloid/masterSubDir/4G2A.pdb
+zero or <4 helical residues; SKIP
+
+1DAB.pds 0.905198 /home/xray/peptideAmyloid/masterSubDir/1DAB.pdb
+zero or <4 helical residues; SKIP
+
+3V55.pds 0.907741 /home/xray/peptideAmyloid/masterSubDir/3V55.pdb
+FOUND!
+n9_2strand_helixMatches/match67_0_3V55.pdb
+Target structure match67_0_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.907741 tmp/matchEXT.pds [(23,31), (0,8)] 0.907741
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match67_1_3V55.pdb
+Target structure match67_1_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.907741 tmp/matchEXT.pds [(9,17), (0,8)] 0.907741
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match67_2_3V55.pdb
+Target structure match67_2_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.907741 tmp/matchEXT.pds [(9,17), (0,8)] 0.907741
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4DT5.pds 0.908865 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+2WXY.pds 0.909245 /home/xray/peptideAmyloid/masterSubDir/2WXY.pdb
+FOUND!
+n9_2strand_helixMatches/match69_0_2WXY.pdb
+Target structure match69_0_2WXY_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.909245 tmp/matchEXT.pds [(22,30), (13,21)] 0.909245
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4KU0.pds 0.915073 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+3A0Y.pds 0.917263 /home/xray/peptideAmyloid/masterSubDir/3A0Y.pdb
+zero or <4 helical residues; SKIP
+
+4DT5.pds 0.918802 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+2QZU.pds 0.923971 /home/xray/peptideAmyloid/masterSubDir/2QZU.pdb
+FOUND!
+n9_2strand_helixMatches/match73_0_2QZU.pdb
+Target structure match73_0_2QZU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.923971 tmp/matchEXT.pds [(0,8), (27,35)] 0.923971
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match73_1_2QZU.pdb
+Target structure match73_1_2QZU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.923971 tmp/matchEXT.pds [(0,8), (9,17)] 0.923971
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3Q2I.pds 0.925458 /home/xray/peptideAmyloid/masterSubDir/3Q2I.pdb
+zero or <4 helical residues; SKIP
+
+4DT5.pds 0.925568 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+2ODL.pds 0.93122 /home/xray/peptideAmyloid/masterSubDir/2ODL.pdb
+no valid helical segments found
+
+2ODL.pds 0.932001 /home/xray/peptideAmyloid/masterSubDir/2ODL.pdb
+zero or <4 helical residues; SKIP
+
+3MZ0.pds 0.935607 /home/xray/peptideAmyloid/masterSubDir/3MZ0.pdb
+FOUND!
+n9_2strand_helixMatches/match78_0_3MZ0.pdb
+Target structure match78_0_3MZ0_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.935607 tmp/matchEXT.pds [(13,21), (4,12)] 0.935607
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match78_1_3MZ0.pdb
+Target structure match78_1_3MZ0_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.935607 tmp/matchEXT.pds [(29,37), (0,8)] 0.935607
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4KU0.pds 0.942316 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+zero or <4 helical residues; SKIP
+
+4AF8.pds 0.945633 /home/xray/peptideAmyloid/masterSubDir/4AF8.pdb
+FOUND!
+n9_2strand_helixMatches/match80_0_4AF8.pdb
+Target structure match80_0_4AF8_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.945633 tmp/matchEXT.pds [(23,31), (0,8)] 0.945633
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match80_1_4AF8.pdb
+Target structure match80_1_4AF8_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.945633 tmp/matchEXT.pds [(9,17), (0,8)] 0.945633
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4KU0.pds 0.95582 /home/xray/peptideAmyloid/masterSubDir/4KU0.pdb
+no valid helical segments found
+
+3ON9.pds 0.958512 /home/xray/peptideAmyloid/masterSubDir/3ON9.pdb
+zero or <4 helical residues; SKIP
+
+2WXY.pds 0.985388 /home/xray/peptideAmyloid/masterSubDir/2WXY.pdb
+FOUND!
+n9_2strand_helixMatches/match83_0_2WXY.pdb
+Target structure match83_0_2WXY_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.985388 tmp/matchEXT.pds [(15,23), (24,32)] 0.985388
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4DT5.pds 0.986593 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+2ODL.pds 0.992083 /home/xray/peptideAmyloid/masterSubDir/2ODL.pdb
+zero or <4 helical residues; SKIP
+
+4QRK.pds 0.996402 /home/xray/peptideAmyloid/masterSubDir/4QRK.pdb
+no valid helical segments found
+
+4DT5.pds 0.997598 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+3KUX.pds 0.999796 /home/xray/peptideAmyloid/masterSubDir/3KUX.pdb
+zero or <4 helical residues; SKIP
+
+4OPW.pds 1.00149 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
+
+1LC0.pds 1.00648 /home/xray/peptideAmyloid/masterSubDir/1LC0.pdb
+zero or <4 helical residues; SKIP
+
+4NG0.pds 1.00921 /home/xray/peptideAmyloid/masterSubDir/4NG0.pdb
+no valid helical segments found
+
+1RWR.pds 1.00956 /home/xray/peptideAmyloid/masterSubDir/1RWR.pdb
+no valid helical segments found
+
+2FP3.pds 1.01012 /home/xray/peptideAmyloid/masterSubDir/2FP3.pdb
+FOUND!
+n9_2strand_helixMatches/match93_0_2FP3.pdb
+Target structure match93_0_2FP3_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.01012 tmp/matchEXT.pds [(0,8), (24,32)] 1.01012
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match93_1_2FP3.pdb
+Target structure match93_1_2FP3_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.01012 tmp/matchEXT.pds [(0,8), (9,17)] 1.01012
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3QVS.pds 1.01983 /home/xray/peptideAmyloid/masterSubDir/3QVS.pdb
+FOUND!
+n9_2strand_helixMatches/match94_0_3QVS.pdb
+Target structure match94_0_3QVS_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.01983 tmp/matchEXT.pds [(0,8), (27,35)] 1.01983
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4G2A.pds 1.02787 /home/xray/peptideAmyloid/masterSubDir/4G2A.pdb
+zero or <4 helical residues; SKIP
+
+3A0Y.pds 1.02949 /home/xray/peptideAmyloid/masterSubDir/3A0Y.pdb
+zero or <4 helical residues; SKIP
+
+3OHS.pds 1.03097 /home/xray/peptideAmyloid/masterSubDir/3OHS.pdb
+FOUND!
+n9_2strand_helixMatches/match97_0_3OHS.pdb
+Target structure match97_0_3OHS_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03097 tmp/matchEXT.pds [(25,33), (0,8)] 1.03097
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1AUK.pds 1.03917 /home/xray/peptideAmyloid/masterSubDir/1AUK.pdb
+FOUND!
+n9_2strand_helixMatches/match98_0_1AUK.pdb
+Target structure match98_0_1AUK_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03917 tmp/matchEXT.pds [(0,8), (27,35)] 1.03917
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match98_1_1AUK.pdb
+Target structure match98_1_1AUK_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03917 tmp/matchEXT.pds [(0,8), (9,17)] 1.03917
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match98_2_1AUK.pdb
+Target structure match98_2_1AUK_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03917 tmp/matchEXT.pds [(0,8), (9,17)] 1.03917
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3RC1.pds 1.04452 /home/xray/peptideAmyloid/masterSubDir/3RC1.pdb
+zero or <4 helical residues; SKIP
+
+3Q2I.pds 1.04991 /home/xray/peptideAmyloid/masterSubDir/3Q2I.pdb
+FOUND!
+n9_2strand_helixMatches/match100_0_3Q2I.pdb
+Target structure match100_0_3Q2I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.04991 tmp/matchEXT.pds [(15,23), (0,8)] 1.04991
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+n9_2strand_helixMatches/match100_1_3Q2I.pdb
+Target structure match100_1_3Q2I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.04991 tmp/matchEXT.pds [(20,28), (0,8)] 1.04991
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+xray@dgl-xray:~/peptideAmyloid/searchFrags$ python ~/bin/matchLookup.py c9_2strand.pdb c9_2strand.pds.m  c9_2strand.pds.struct ~/peptideAmyloid/masterSubDir/ ~/termanal/
 Entering matches for c9_2strand 
 
---2015-12-16 15:25:27--  http://www.rcsb.org/pdb/files/3SUC.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3SUC.pdb'
-
-3SUC.pdb                       [ <=>                                       ] 983.94K  5.29MB/s   in 0.2s   
-
-2015-12-16 15:25:28 (5.29 MB/s) - 'c9_2strand/3SUC.pdb' saved [1007559]
-
-3suc_A.pds 0.668785 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:28--  http://www.rcsb.org/pdb/files/3EQN.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3EQN.pdb'
-
-3EQN.pdb                       [  <=>                                      ]   1.11M  4.80MB/s   in 0.2s   
-
-2015-12-16 15:25:29 (4.80 MB/s) - 'c9_2strand/3EQN.pdb' saved [1165671]
-
-3eqn_A.pds 0.690282 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:29--  http://www.rcsb.org/pdb/files/3GQ7.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3GQ7.pdb'
-
-3GQ7.pdb                       [  <=>                                      ] 448.82K   766KB/s   in 0.6s   
-
-2015-12-16 15:25:29 (766 KB/s) - 'c9_2strand/3GQ7.pdb' saved [459594]
-
-3gq7_A.pds 0.713451 FOUND!
-350 351 352 353 354
-
-3suc_A.pds 0.72663 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:30--  http://www.rcsb.org/pdb/files/1RWR.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1RWR.pdb'
-
-1RWR.pdb                       [  <=>                                      ] 410.93K  1.78MB/s   in 0.2s   
-
-2015-12-16 15:25:30 (1.78 MB/s) - 'c9_2strand/1RWR.pdb' saved [420795]
-
-1rwr_A.pds 0.729852 FOUND!
-350 351 352 353 354
-
-3suc_A.pds 0.772549 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:30--  http://www.rcsb.org/pdb/files/3LMW.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3LMW.pdb'
-
-3LMW.pdb                       [      <=>                                  ]   1.22M   864KB/s   in 1.4s   
-
-2015-12-16 15:25:32 (864 KB/s) - 'c9_2strand/3LMW.pdb' saved [1276317]
-
-3lmw_A.pds 0.78131 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:32--  http://www.rcsb.org/pdb/files/4MXN.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/4MXN.pdb'
-
-4MXN.pdb                       [    <=>                                    ]   1.17M  1.25MB/s   in 0.9s   
-
-2015-12-16 15:25:33 (1.25 MB/s) - 'c9_2strand/4MXN.pdb' saved [1225611]
-
-4mxn_A.pds 0.786827 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:33--  http://www.rcsb.org/pdb/files/2QV3.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/2QV3.pdb'
-
-2QV3.pdb                       [ <=>                                       ] 329.54K  2.09MB/s   in 0.2s   
-
-2015-12-16 15:25:34 (2.09 MB/s) - 'c9_2strand/2QV3.pdb' saved [337446]
-
-2qv3_A.pds 0.788998 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:34--  http://www.rcsb.org/pdb/files/3G06.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3G06.pdb'
-
-3G06.pdb                       [ <=>                                       ] 442.34K  2.34MB/s   in 0.2s   
-
-2015-12-16 15:25:34 (2.34 MB/s) - 'c9_2strand/3G06.pdb' saved [452952]
-
-3g06_A.pds 0.791826 FOUND!
-350 351 352 353 354
-
-3gq7_A.pds 0.809133 zero or <4 helical residues; SKIP
-
-3suc_A.pds 0.818781 FOUND!
-350 351 352 353 354
-
-3gq7_A.pds 0.820391 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:35--  http://www.rcsb.org/pdb/files/1A9N.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1A9N.pdb'
-
-1A9N.pdb                       [  <=>                                      ] 453.33K  2.11MB/s   in 0.2s   
-
-2015-12-16 15:25:35 (2.11 MB/s) - 'c9_2strand/1A9N.pdb' saved [464211]
-
-1a9n_A.pds 0.828051 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:35--  http://www.rcsb.org/pdb/files/1WWL.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1WWL.pdb'
-
-1WWL.pdb                       [ <=>                                       ] 476.43K  2.34MB/s   in 0.2s   
-
-2015-12-16 15:25:35 (2.34 MB/s) - 'c9_2strand/1WWL.pdb' saved [487863]
-
-1wwl_A.pds 0.832004 FOUND!
-350 351 352 353 354
-86 87 88 89 90
-
-4mxn_A.pds 0.832923 zero or <4 helical residues; SKIP
-
-1wwl_A.pds 0.842699 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:36--  http://www.rcsb.org/pdb/files/3B90.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3B90.pdb'
-
-3B90.pdb                       [ <=>                                       ] 343.70K  2.06MB/s   in 0.2s   
-
-2015-12-16 15:25:36 (2.06 MB/s) - 'c9_2strand/3B90.pdb' saved [351945]
-
-3b90_A.pds 0.847228 FOUND!
-350 351 352 353 354
-
-3eqn_A.pds 0.851186 FOUND!
-350 351 352 353 354
-
-3lmw_A.pds 0.86315 FOUND!
-350 351 352 353 354
-8 9 10 11
-
---2015-12-16 15:25:36--  http://www.rcsb.org/pdb/files/4C2L.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/4C2L.pdb'
-
-4C2L.pdb                       [ <=>                                       ] 309.05K  1.87MB/s   in 0.2s   
-
-2015-12-16 15:25:36 (1.87 MB/s) - 'c9_2strand/4C2L.pdb' saved [316467]
-
-4c2l_A.pds 0.864672 zero or <4 helical residues; SKIP
-
-3eqn_A.pds 0.865352 FOUND!
-350 351 352 353 354
-
-3gq7_A.pds 0.867061 zero or <4 helical residues; SKIP
-
-3g06_A.pds 0.870695 FOUND!
-350 351 352 353 354
-26 27 28 29 30
-
---2015-12-16 15:25:37--  http://www.rcsb.org/pdb/files/3B4N.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3B4N.pdb'
-
-3B4N.pdb                       [  <=>                                      ] 506.57K  1.49MB/s   in 0.3s   
-
-2015-12-16 15:25:37 (1.49 MB/s) - 'c9_2strand/3B4N.pdb' saved [518724]
-
-3b4n_A.pds 0.883392 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:38--  http://www.rcsb.org/pdb/files/4HWV.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/4HWV.pdb'
-
-4HWV.pdb                       [   <=>                                     ]   1.35M  2.30MB/s   in 0.6s   
-
-2015-12-16 15:25:38 (2.30 MB/s) - 'c9_2strand/4HWV.pdb' saved [1414422]
-
-4hwv_A.pds 0.884876 FOUND!
-350 351 352 353 354
-409 410 411 412 413
-417 418 419 420
-
---2015-12-16 15:25:39--  http://www.rcsb.org/pdb/files/1Z7X.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1Z7X.pdb'
-
-1Z7X.pdb                       [  <=>                                      ] 828.35K  2.34MB/s   in 0.3s   
-
-2015-12-16 15:25:39 (2.34 MB/s) - 'c9_2strand/1Z7X.pdb' saved [848232]
-
-1z7x_W.pds 0.889074 FOUND!
-350 351 352 353 354
-16 17 18 19 20
-23 24 25 26 27
-
---2015-12-16 15:25:39--  http://www.rcsb.org/pdb/files/3OJA.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3OJA.pdb'
-
-3OJA.pdb                       [  <=>                                      ] 793.31K  2.45MB/s   in 0.3s   
-
-2015-12-16 15:25:40 (2.45 MB/s) - 'c9_2strand/3OJA.pdb' saved [812349]
-
-3oja_A.pds 0.893591 FOUND!
-350 351 352 353 354
-334 335 336 337 338 339 340 341 342 343
-
---2015-12-16 15:25:40--  http://www.rcsb.org/pdb/files/4Q62.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/4Q62.pdb'
-
-4Q62.pdb                       [   <=>                                     ] 581.24K  1004KB/s   in 0.6s   
-
-2015-12-16 15:25:41 (1004 KB/s) - 'c9_2strand/4Q62.pdb' saved [595188]
-
-4q62_A.pds 0.901691 FOUND!
-350 351 352 353 354
-52 53 54 55 56
-
---2015-12-16 15:25:41--  http://www.rcsb.org/pdb/files/2ID5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/2ID5.pdb'
-
-2ID5.pdb                       [    <=>                                    ]   1.42M  1.97MB/s   in 0.7s   
-
-2015-12-16 15:25:42 (1.97 MB/s) - 'c9_2strand/2ID5.pdb' saved [1484325]
-
-2id5_A.pds 0.903613 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:42--  http://www.rcsb.org/pdb/files/3UL8.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3UL8.pdb'
-
-3UL8.pdb                       [ <=>                                       ] 222.67K  --.-KB/s   in 0.1s   
-
-2015-12-16 15:25:42 (1.69 MB/s) - 'c9_2strand/3UL8.pdb' saved [228015]
-
-3ul8_A.pds 0.910527 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:42--  http://www.rcsb.org/pdb/files/4FCG.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/4FCG.pdb'
-
-4FCG.pdb                       [  <=>                                      ] 442.02K  2.10MB/s   in 0.2s   
-
-2015-12-16 15:25:42 (2.10 MB/s) - 'c9_2strand/4FCG.pdb' saved [452628]
-
-4fcg_A.pds 0.912707 FOUND!
-350 351 352 353 354
-33 34 35 36 37
-58 59 60 61
-83 84 85 86 87
-
---2015-12-16 15:25:43--  http://www.rcsb.org/pdb/files/1BHE.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1BHE.pdb'
-
-1BHE.pdb                       [ <=>                                       ] 274.96K  --.-KB/s   in 0.1s   
-
-2015-12-16 15:25:43 (1.85 MB/s) - 'c9_2strand/1BHE.pdb' saved [281556]
-
-1bhe_A.pds 0.912964 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:43--  http://www.rcsb.org/pdb/files/1QQ1.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1QQ1.pdb'
-
-1QQ1.pdb                       [  <=>                                      ] 377.95K  1.24MB/s   in 0.3s   
-
-2015-12-16 15:25:43 (1.24 MB/s) - 'c9_2strand/1QQ1.pdb' saved [387018]
-
-1qq1_A.pds 0.918408 FOUND!
-350 351 352 353 354
-
-3suc_A.pds 0.920749 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:44--  http://www.rcsb.org/pdb/files/3RFJ.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3RFJ.pdb'
-
-3RFJ.pdb                       [  <=>                                      ] 213.89K   419KB/s   in 0.5s   
-
-2015-12-16 15:25:44 (419 KB/s) - 'c9_2strand/3RFJ.pdb' saved [219024]
-
-3rfj_A.pds 0.927858 FOUND!
-350 351 352 353 354
-
-3lmw_A.pds 0.928226 FOUND!
-350 351 352 353 354
-8 9 10 11
-
-4fcg_A.pds 0.930586 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:45--  http://www.rcsb.org/pdb/files/3O53.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3O53.pdb'
-
-3O53.pdb                       [  <=>                                      ] 500.87K  1.37MB/s   in 0.4s   
-
-2015-12-16 15:25:45 (1.37 MB/s) - 'c9_2strand/3O53.pdb' saved [512892]
-
-3o53_A.pds 0.930754 FOUND!
-350 351 352 353 354
-
-3eqn_A.pds 0.931707 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:45--  http://www.rcsb.org/pdb/files/2A0Z.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/2A0Z.pdb'
-
-2A0Z.pdb                       [  <=>                                      ] 588.99K  1.52MB/s   in 0.4s   
-
-2015-12-16 15:25:46 (1.52 MB/s) - 'c9_2strand/2A0Z.pdb' saved [603126]
-
-2a0z_A.pds 0.932823 FOUND!
-350 351 352 353 354
-191 192 193 194
-
---2015-12-16 15:25:46--  http://www.rcsb.org/pdb/files/3CVR.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/3CVR.pdb'
-
-3CVR.pdb                       [  <=>                                      ] 353.82K  1.40MB/s   in 0.2s   
-
-2015-12-16 15:25:46 (1.40 MB/s) - 'c9_2strand/3CVR.pdb' saved [362313]
-
-3cvr_A.pds 0.935798 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:47--  http://www.rcsb.org/pdb/files/1EE6.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/1EE6.pdb'
-
-1EE6.pdb                       [ <=>                                       ] 162.95K  --.-KB/s   in 0.1s   
-
-2015-12-16 15:25:47 (1.23 MB/s) - 'c9_2strand/1EE6.pdb' saved [166860]
-
-1ee6_A.pds 0.935948 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:47--  http://www.rcsb.org/pdb/files/2PYG.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/2PYG.pdb'
-
-2PYG.pdb                       [    <=>                                    ] 525.39K   744KB/s   in 0.7s   
-
-2015-12-16 15:25:48 (744 KB/s) - 'c9_2strand/2PYG.pdb' saved [538002]
-
-2pyg_A.pds 0.945481 zero or <4 helical residues; SKIP
-
---2015-12-16 15:25:48--  http://www.rcsb.org/pdb/files/4LXR.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/4LXR.pdb'
-
-4LXR.pdb                       [    <=>                                    ]   1.26M  1.68MB/s   in 0.7s   
-
-2015-12-16 15:25:49 (1.68 MB/s) - 'c9_2strand/4LXR.pdb' saved [1321191]
-
-4lxr_A.pds 0.947905 FOUND!
-350 351 352 353 354
-
-1bhe_A.pds 0.947975 zero or <4 helical residues; SKIP
-
-3suc_A.pds 0.950813 zero or <4 helical residues; SKIP
-
-1z7x_W.pds 0.951735 FOUND!
-350 351 352 353 354
-106 107 108 109 110
-134 135 136 137
-
-1bhe_A.pds 0.952092 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:25:50--  http://www.rcsb.org/pdb/files/2P1M.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'c9_2strand/2P1M.pdb'
-
-2P1M.pdb                       [  <=>                                      ]   1009K  2.46MB/s   in 0.4s   
-
-2015-12-16 15:25:50 (2.46 MB/s) - 'c9_2strand/2P1M.pdb' saved [1032993]
-
-2p1m_B.pds 0.954693 FOUND!
-350 351 352 353 354
-69 70 71 72 73
-465 466 467 468 469 470
-494 495 496 497 498
-
-
-#########################################################
-################## START OF 2 FULL HISTORY ##############
-#########################################################
-
-otp589411ots:searchFrags mmravic$ python ~/bin/matchLookup.py full_2strand.pdb full_2strand.pds.m 
+1RWR.pds 0.729852 /home/xray/peptideAmyloid/masterSubDir/1RWR.pdb
+zero or <4 helical residues; SKIP
+
+2QV3.pds 0.788998 /home/xray/peptideAmyloid/masterSubDir/2QV3.pdb
+no valid helical segments found
+
+3T9G.pds 0.822495 /home/xray/peptideAmyloid/masterSubDir/3T9G.pdb
+no valid helical segments found
+
+1A9N.pds 0.828051 /home/xray/peptideAmyloid/masterSubDir/1A9N.pdb
+FOUND!
+c9_2strand_helixMatches/match4_0_1A9N.pdb
+Target structure match4_0_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.828051 tmp/matchEXT.pds [(9,17), (0,8)] 0.828051
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match4_1_1A9N.pdb
+Target structure match4_1_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.828051 tmp/matchEXT.pds [(9,17), (0,8)] 0.828051
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3T9G.pds 0.833856 /home/xray/peptideAmyloid/masterSubDir/3T9G.pdb
+no valid helical segments found
+
+1A9N.pds 0.845064 /home/xray/peptideAmyloid/masterSubDir/1A9N.pdb
+FOUND!
+c9_2strand_helixMatches/match6_0_1A9N.pdb
+Target structure match6_0_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.845064 tmp/matchEXT.pds [(9,17), (0,8)] 0.845064
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match6_1_1A9N.pdb
+Target structure match6_1_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.845064 tmp/matchEXT.pds [(9,17), (0,8)] 0.845064
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3T9G.pds 0.847534 /home/xray/peptideAmyloid/masterSubDir/3T9G.pdb
+no valid helical segments found
+
+3T9G.pds 0.862121 /home/xray/peptideAmyloid/masterSubDir/3T9G.pdb
+no valid helical segments found
+
+4C2L.pds 0.864672 /home/xray/peptideAmyloid/masterSubDir/4C2L.pdb
+zero or <4 helical residues; SKIP
+
+4V2D.pds 0.891671 /home/xray/peptideAmyloid/masterSubDir/4V2D.pdb
+FOUND!
+c9_2strand_helixMatches/match10_0_4V2D.pdb
+Target structure match10_0_4V2D_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.891671 tmp/matchEXT.pds [(15,23), (6,14)] 0.891671
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match10_1_4V2D.pdb
+Target structure match10_1_4V2D_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.891671 tmp/matchEXT.pds [(13,21), (0,8)] 0.891671
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3T9G.pds 0.911982 /home/xray/peptideAmyloid/masterSubDir/3T9G.pdb
+no valid helical segments found
+
+1BHE.pds 0.912964 /home/xray/peptideAmyloid/masterSubDir/1BHE.pdb
+zero or <4 helical residues; SKIP
+
+4OPW.pds 0.919873 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+zero or <4 helical residues; SKIP
+
+4OPW.pds 0.925608 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+no valid helical segments found
+
+2Z63.pds 0.930429 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+FOUND!
+c9_2strand_helixMatches/match15_0_2Z63.pdb
+Error: could not read file c9_2strand_helixMatches/match15_0_2Z63_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+
+2VFO.pds 0.935394 /home/xray/peptideAmyloid/masterSubDir/2VFO.pdb
+no valid helical segments found
+
+1BHE.pds 0.947975 /home/xray/peptideAmyloid/masterSubDir/1BHE.pdb
+zero or <4 helical residues; SKIP
+
+1BHE.pds 0.952092 /home/xray/peptideAmyloid/masterSubDir/1BHE.pdb
+zero or <4 helical residues; SKIP
+
+2Z63.pds 0.955489 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+no valid helical segments found
+
+1A9N.pds 0.965797 /home/xray/peptideAmyloid/masterSubDir/1A9N.pdb
+no valid helical segments found
+
+2VFO.pds 0.966123 /home/xray/peptideAmyloid/masterSubDir/2VFO.pdb
+no valid helical segments found
+
+3E4G.pds 0.967406 /home/xray/peptideAmyloid/masterSubDir/3E4G.pdb
+FOUND!
+c9_2strand_helixMatches/match22_0_3E4G.pdb
+Target structure match22_0_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.967406 tmp/matchEXT.pds [(17,25), (8,16)] 0.967406
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match22_1_3E4G.pdb
+Target structure match22_1_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.967406 tmp/matchEXT.pds [(18,26), (0,8)] 0.967406
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match22_2_3E4G.pdb
+Target structure match22_2_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.967406 tmp/matchEXT.pds [(9,17), (0,8)] 0.967406
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4CIL.pds 0.968516 /home/xray/peptideAmyloid/masterSubDir/4CIL.pdb
+FOUND!
+c9_2strand_helixMatches/match23_0_4CIL.pdb
+Target structure match23_0_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.968516 tmp/matchEXT.pds [(15,23), (0,8)] 0.968516
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match23_1_4CIL.pdb
+Target structure match23_1_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.968516 tmp/matchEXT.pds [(9,17), (0,8)] 0.968516
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3E4G.pds 0.969516 /home/xray/peptideAmyloid/masterSubDir/3E4G.pdb
+FOUND!
+c9_2strand_helixMatches/match24_0_3E4G.pdb
+Target structure match24_0_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.969516 tmp/matchEXT.pds [(18,26), (9,17)] 0.969516
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match24_1_3E4G.pdb
+Target structure match24_1_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.969516 tmp/matchEXT.pds [(18,26), (0,8)] 0.969516
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match24_2_3E4G.pdb
+Target structure match24_2_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.969516 tmp/matchEXT.pds [(9,17), (0,8)] 0.969516
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3T9G.pds 0.970049 /home/xray/peptideAmyloid/masterSubDir/3T9G.pdb
+no valid helical segments found
+
+1A9N.pds 0.970974 /home/xray/peptideAmyloid/masterSubDir/1A9N.pdb
+FOUND!
+c9_2strand_helixMatches/match26_0_1A9N.pdb
+Target structure match26_0_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.970974 tmp/matchEXT.pds [(18,26), (0,8)] 0.970974
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match26_1_1A9N.pdb
+Target structure match26_1_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.970974 tmp/matchEXT.pds [(9,17), (0,8)] 0.970974
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match26_2_1A9N.pdb
+Target structure match26_2_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.970974 tmp/matchEXT.pds [(9,17), (0,8)] 0.970974
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1A9N.pds 0.97365 /home/xray/peptideAmyloid/masterSubDir/1A9N.pdb
+no valid helical segments found
+
+1A9N.pds 0.97728 /home/xray/peptideAmyloid/masterSubDir/1A9N.pdb
+FOUND!
+c9_2strand_helixMatches/match28_0_1A9N.pdb
+Target structure match28_0_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.97728 tmp/matchEXT.pds [(18,26), (0,8)] 0.97728
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match28_1_1A9N.pdb
+Target structure match28_1_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.97728 tmp/matchEXT.pds [(9,17), (0,8)] 0.97728
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match28_2_1A9N.pdb
+Target structure match28_2_1A9N_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.97728 tmp/matchEXT.pds [(9,17), (0,8)] 0.97728
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4C2L.pds 0.978599 /home/xray/peptideAmyloid/masterSubDir/4C2L.pdb
+zero or <4 helical residues; SKIP
+
+1BHE.pds 0.979724 /home/xray/peptideAmyloid/masterSubDir/1BHE.pdb
+zero or <4 helical residues; SKIP
+
+4CIL.pds 0.982386 /home/xray/peptideAmyloid/masterSubDir/4CIL.pdb
+FOUND!
+c9_2strand_helixMatches/match31_0_4CIL.pdb
+Target structure match31_0_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.982386 tmp/matchEXT.pds [(14,22), (5,13)] 0.982386
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match31_1_4CIL.pdb
+Target structure match31_1_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.982386 tmp/matchEXT.pds [(15,23), (0,8)] 0.982386
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match31_2_4CIL.pdb
+Target structure match31_2_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.982386 tmp/matchEXT.pds [(9,17), (0,8)] 0.982386
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2BX6.pds 0.993311 /home/xray/peptideAmyloid/masterSubDir/2BX6.pdb
+zero or <4 helical residues; SKIP
+
+3PET.pds 0.993523 /home/xray/peptideAmyloid/masterSubDir/3PET.pdb
+zero or <4 helical residues; SKIP
+
+1QCX.pds 0.99397 /home/xray/peptideAmyloid/masterSubDir/1QCX.pdb
+no valid helical segments found
+
+4CIL.pds 0.99701 /home/xray/peptideAmyloid/masterSubDir/4CIL.pdb
+FOUND!
+c9_2strand_helixMatches/match35_0_4CIL.pdb
+Target structure match35_0_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.99701 tmp/matchEXT.pds [(14,22), (0,8)] 0.99701
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match35_1_4CIL.pdb
+Target structure match35_1_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+0.99701 tmp/matchEXT.pds [(9,17), (0,8)] 0.99701
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2Z63.pds 1.00462 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+FOUND!
+c9_2strand_helixMatches/match36_0_2Z63.pdb
+Target structure match36_0_2Z63_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.00462 tmp/matchEXT.pds [(18,26), (9,17)] 1.00462
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3PET.pds 1.00827 /home/xray/peptideAmyloid/masterSubDir/3PET.pdb
+no valid helical segments found
+
+1RU4.pds 1.0112 /home/xray/peptideAmyloid/masterSubDir/1RU4.pdb
+FOUND!
+c9_2strand_helixMatches/match38_0_1RU4.pdb
+Target structure match38_0_1RU4_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.0112 tmp/matchEXT.pds [(9,17), (0,8)] 1.0112
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4C2L.pds 1.01445 /home/xray/peptideAmyloid/masterSubDir/4C2L.pdb
+zero or <4 helical residues; SKIP
+
+1DAB.pds 1.01577 /home/xray/peptideAmyloid/masterSubDir/1DAB.pdb
+zero or <4 helical residues; SKIP
+
+4V2D.pds 1.01723 /home/xray/peptideAmyloid/masterSubDir/4V2D.pdb
+FOUND!
+c9_2strand_helixMatches/match41_0_4V2D.pdb
+Target structure match41_0_4V2D_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.01723 tmp/matchEXT.pds [(13,21), (4,12)] 1.01723
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4V2D.pds 1.01798 /home/xray/peptideAmyloid/masterSubDir/4V2D.pdb
+FOUND!
+c9_2strand_helixMatches/match42_0_4V2D.pdb
+Target structure match42_0_4V2D_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.01798 tmp/matchEXT.pds [(15,23), (0,8)] 1.01798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match42_1_4V2D.pdb
+Target structure match42_1_4V2D_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.01798 tmp/matchEXT.pds [(9,17), (0,8)] 1.01798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2Z63.pds 1.02488 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+FOUND!
+c9_2strand_helixMatches/match43_0_2Z63.pdb
+Error: could not read file c9_2strand_helixMatches/match43_0_2Z63_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+
+1DAB.pds 1.02644 /home/xray/peptideAmyloid/masterSubDir/1DAB.pdb
+zero or <4 helical residues; SKIP
+
+1DAB.pds 1.02916 /home/xray/peptideAmyloid/masterSubDir/1DAB.pdb
+no valid helical segments found
+
+4IM6.pds 1.03014 /home/xray/peptideAmyloid/masterSubDir/4IM6.pdb
+FOUND!
+c9_2strand_helixMatches/match46_0_4IM6.pdb
+Target structure match46_0_4IM6_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03014 tmp/matchEXT.pds [(21,29), (12,20)] 1.03014
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match46_1_4IM6.pdb
+Target structure match46_1_4IM6_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03014 tmp/matchEXT.pds [(21,29), (0,8)] 1.03014
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1RU4.pds 1.03083 /home/xray/peptideAmyloid/masterSubDir/1RU4.pdb
+no valid helical segments found
+
+3BZ5.pds 1.03092 /home/xray/peptideAmyloid/masterSubDir/3BZ5.pdb
+FOUND!
+c9_2strand_helixMatches/match48_0_3BZ5.pdb
+Target structure match48_0_3BZ5_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03092 tmp/matchEXT.pds [(20,28), (11,19)] 1.03092
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4C2L.pds 1.03225 /home/xray/peptideAmyloid/masterSubDir/4C2L.pdb
+zero or <4 helical residues; SKIP
+
+1RU4.pds 1.03431 /home/xray/peptideAmyloid/masterSubDir/1RU4.pdb
+FOUND!
+c9_2strand_helixMatches/match50_0_1RU4.pdb
+Target structure match50_0_1RU4_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.03431 tmp/matchEXT.pds [(9,17), (0,8)] 1.03431
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1RMG.pds 1.03469 /home/xray/peptideAmyloid/masterSubDir/1RMG.pdb
+no valid helical segments found
+
+3BZ5.pds 1.03884 /home/xray/peptideAmyloid/masterSubDir/3BZ5.pdb
+no valid helical segments found
+
+1OGO.pds 1.0424 /home/xray/peptideAmyloid/masterSubDir/1OGO.pdb
+no valid helical segments found
+
+1DAB.pds 1.0446 /home/xray/peptideAmyloid/masterSubDir/1DAB.pdb
+zero or <4 helical residues; SKIP
+
+2O04.pds 1.04534 /home/xray/peptideAmyloid/masterSubDir/2O04.pdb
+no valid helical segments found
+
+1OGO.pds 1.04659 /home/xray/peptideAmyloid/masterSubDir/1OGO.pdb
+no valid helical segments found
+
+1BHE.pds 1.04769 /home/xray/peptideAmyloid/masterSubDir/1BHE.pdb
+zero or <4 helical residues; SKIP
+
+4V2D.pds 1.05075 /home/xray/peptideAmyloid/masterSubDir/4V2D.pdb
+no valid helical segments found
+
+2Z63.pds 1.05303 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+no valid helical segments found
+
+1OGO.pds 1.05869 /home/xray/peptideAmyloid/masterSubDir/1OGO.pdb
+no valid helical segments found
+
+2BX6.pds 1.0593 /home/xray/peptideAmyloid/masterSubDir/2BX6.pdb
+no valid helical segments found
+
+3BZ5.pds 1.06197 /home/xray/peptideAmyloid/masterSubDir/3BZ5.pdb
+no valid helical segments found
+
+4CIL.pds 1.06271 /home/xray/peptideAmyloid/masterSubDir/4CIL.pdb
+FOUND!
+c9_2strand_helixMatches/match63_0_4CIL.pdb
+Target structure match63_0_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06271 tmp/matchEXT.pds [(15,23), (6,14)] 1.06271
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match63_1_4CIL.pdb
+Target structure match63_1_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06271 tmp/matchEXT.pds [(14,22), (0,8)] 1.06271
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match63_2_4CIL.pdb
+Target structure match63_2_4CIL_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06271 tmp/matchEXT.pds [(9,17), (0,8)] 1.06271
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2Z63.pds 1.06349 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+FOUND!
+c9_2strand_helixMatches/match64_0_2Z63.pdb
+Error: could not read file c9_2strand_helixMatches/match64_0_2Z63_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+
+2O04.pds 1.06552 /home/xray/peptideAmyloid/masterSubDir/2O04.pdb
+FOUND!
+c9_2strand_helixMatches/match65_0_2O04.pdb
+Target structure match65_0_2O04_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06552 tmp/matchEXT.pds [(9,17), (0,8)] 1.06552
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match65_1_2O04.pdb
+Target structure match65_1_2O04_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06552 tmp/matchEXT.pds [(9,17), (0,8)] 1.06552
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1RMG.pds 1.06566 /home/xray/peptideAmyloid/masterSubDir/1RMG.pdb
+no valid helical segments found
+
+3E4G.pds 1.06619 /home/xray/peptideAmyloid/masterSubDir/3E4G.pdb
+FOUND!
+c9_2strand_helixMatches/match67_0_3E4G.pdb
+Target structure match67_0_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06619 tmp/matchEXT.pds [(19,27), (10,18)] 1.06619
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match67_1_3E4G.pdb
+Target structure match67_1_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06619 tmp/matchEXT.pds [(21,29), (12,20)] 1.06619
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match67_2_3E4G.pdb
+Target structure match67_2_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06619 tmp/matchEXT.pds [(17,25), (0,8)] 1.06619
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match67_3_3E4G.pdb
+Target structure match67_3_3E4G_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.06619 tmp/matchEXT.pds [(9,17), (0,8)] 1.06619
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3VMV.pds 1.0698 /home/xray/peptideAmyloid/masterSubDir/3VMV.pdb
+FOUND!
+c9_2strand_helixMatches/match68_0_3VMV.pdb
+Target structure match68_0_3VMV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.0698 tmp/matchEXT.pds [(9,17), (0,8)] 1.0698
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2B0R.pds 1.07069 /home/xray/peptideAmyloid/masterSubDir/2B0R.pdb
+no valid helical segments found
+
+2B0R.pds 1.07282 /home/xray/peptideAmyloid/masterSubDir/2B0R.pdb
+no valid helical segments found
+
+2VBK.pds 1.07424 /home/xray/peptideAmyloid/masterSubDir/2VBK.pdb
+no valid helical segments found
+
+2VBK.pds 1.07679 /home/xray/peptideAmyloid/masterSubDir/2VBK.pdb
+zero or <4 helical residues; SKIP
+
+2W7Z.pds 1.07683 /home/xray/peptideAmyloid/masterSubDir/2W7Z.pdb
+zero or <4 helical residues; SKIP
+
+2BX6.pds 1.07784 /home/xray/peptideAmyloid/masterSubDir/2BX6.pdb
+no valid helical segments found
+
+1QCX.pds 1.0819 /home/xray/peptideAmyloid/masterSubDir/1QCX.pdb
+zero or <4 helical residues; SKIP
+
+2Z63.pds 1.08225 /home/xray/peptideAmyloid/masterSubDir/2Z63.pdb
+FOUND!
+c9_2strand_helixMatches/match76_0_2Z63.pdb
+Target structure match76_0_2Z63_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.08225 tmp/matchEXT.pds [(9,17), (0,8)] 1.08225
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2O04.pds 1.08467 /home/xray/peptideAmyloid/masterSubDir/2O04.pdb
+no valid helical segments found
+
+2WLC.pds 1.08561 /home/xray/peptideAmyloid/masterSubDir/2WLC.pdb
+zero or <4 helical residues; SKIP
+
+1QCX.pds 1.08568 /home/xray/peptideAmyloid/masterSubDir/1QCX.pdb
+FOUND!
+c9_2strand_helixMatches/match79_0_1QCX.pdb
+Target structure match79_0_1QCX_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.08568 tmp/matchEXT.pds [(9,17), (0,8)] 1.08568
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2B0R.pds 1.08906 /home/xray/peptideAmyloid/masterSubDir/2B0R.pdb
+no valid helical segments found
+
+1RMG.pds 1.09189 /home/xray/peptideAmyloid/masterSubDir/1RMG.pdb
+no valid helical segments found
+
+1DAB.pds 1.09403 /home/xray/peptideAmyloid/masterSubDir/1DAB.pdb
+zero or <4 helical residues; SKIP
+
+4EZG.pds 1.09559 /home/xray/peptideAmyloid/masterSubDir/4EZG.pdb
+FOUND!
+c9_2strand_helixMatches/match83_0_4EZG.pdb
+Target structure match83_0_4EZG_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.09559 tmp/matchEXT.pds [(20,28), (11,19)] 1.09559
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match83_1_4EZG.pdb
+Target structure match83_1_4EZG_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.09559 tmp/matchEXT.pds [(9,17), (0,8)] 1.09559
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1GQ8.pds 1.09984 /home/xray/peptideAmyloid/masterSubDir/1GQ8.pdb
+no valid helical segments found
+
+4OPW.pds 1.10052 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+no valid helical segments found
+
+3BZ5.pds 1.10132 /home/xray/peptideAmyloid/masterSubDir/3BZ5.pdb
+no valid helical segments found
+
+2B0R.pds 1.10198 /home/xray/peptideAmyloid/masterSubDir/2B0R.pdb
+no valid helical segments found
+
+1K5C.pds 1.10239 /home/xray/peptideAmyloid/masterSubDir/1K5C.pdb
+zero or <4 helical residues; SKIP
+
+3BZ5.pds 1.10247 /home/xray/peptideAmyloid/masterSubDir/3BZ5.pdb
+no valid helical segments found
+
+3ZPP.pds 1.10356 /home/xray/peptideAmyloid/masterSubDir/3ZPP.pdb
+zero or <4 helical residues; SKIP
+
+1BHE.pds 1.10377 /home/xray/peptideAmyloid/masterSubDir/1BHE.pdb
+zero or <4 helical residues; SKIP
+
+4OPW.pds 1.10398 /home/xray/peptideAmyloid/masterSubDir/4OPW.pdb
+no valid helical segments found
+
+2W7Z.pds 1.10545 /home/xray/peptideAmyloid/masterSubDir/2W7Z.pdb
+zero or <4 helical residues; SKIP
+
+1K5C.pds 1.10658 /home/xray/peptideAmyloid/masterSubDir/1K5C.pdb
+no valid helical segments found
+
+2VFO.pds 1.10693 /home/xray/peptideAmyloid/masterSubDir/2VFO.pdb
+no valid helical segments found
+
+3VMV.pds 1.10758 /home/xray/peptideAmyloid/masterSubDir/3VMV.pdb
+FOUND!
+c9_2strand_helixMatches/match96_0_3VMV.pdb
+Target structure match96_0_3VMV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.10758 tmp/matchEXT.pds [(9,17), (0,8)] 1.10758
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1RU4.pds 1.10902 /home/xray/peptideAmyloid/masterSubDir/1RU4.pdb
+FOUND!
+c9_2strand_helixMatches/match97_0_1RU4.pdb
+Target structure match97_0_1RU4_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.10902 tmp/matchEXT.pds [(9,17), (0,8)] 1.10902
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3VMV.pds 1.11033 /home/xray/peptideAmyloid/masterSubDir/3VMV.pdb
+zero or <4 helical residues; SKIP
+
+4IM6.pds 1.11147 /home/xray/peptideAmyloid/masterSubDir/4IM6.pdb
+FOUND!
+c9_2strand_helixMatches/match99_0_4IM6.pdb
+Target structure match99_0_4IM6_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.11147 tmp/matchEXT.pds [(21,29), (12,20)] 1.11147
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match99_1_4IM6.pdb
+Target structure match99_1_4IM6_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.11147 tmp/matchEXT.pds [(18,26), (0,8)] 1.11147
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+c9_2strand_helixMatches/match99_2_4IM6.pdb
+Target structure match99_2_4IM6_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+1.11147 tmp/matchEXT.pds [(9,17), (0,8)] 1.11147
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1RMG.pds 1.11192 /home/xray/peptideAmyloid/masterSubDir/1RMG.pdb
+no valid helical segments found
+
+xray@dgl-xray:~/peptideAmyloid/searchFrags$ python ~/bin/matchLookup.py full_2strand.pdb full_2strand.pds.m  full_2strand.pds.struct ~/peptideAmyloid/masterSubDir/ ~/termanal/
 Entering matches for full_2strand 
 
---2015-12-16 15:29:39--  http://www.rcsb.org/pdb/files/1VH4.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/1VH4.pdb'
-
-1VH4.pdb                       [  <=>                                      ] 587.41K  2.21MB/s   in 0.3s   
-
-2015-12-16 15:29:39 (2.21 MB/s) - 'full_2strand/1VH4.pdb' saved [601506]
-
-1vh4_A.pds 1.37845 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:29:40--  http://www.rcsb.org/pdb/files/4DN7.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/4DN7.pdb'
-
-4DN7.pdb                       [   <=>                                     ]   1.12M  2.51MB/s   in 0.4s   
-
-2015-12-16 15:29:40 (2.51 MB/s) - 'full_2strand/4DN7.pdb' saved [1174419]
-
-4dn7_A.pds 1.38789 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 1.43232 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 1.55642 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 1.61061 FOUND!
-350 351 352 353 354
-378 379 380 381 382 383 384
-393 394 395 396 397 398 399 400
-
---2015-12-16 15:29:41--  http://www.rcsb.org/pdb/files/3SF5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/3SF5.pdb'
-
-3SF5.pdb                       [    <=>                                    ] 696.17K  1.11MB/s   in 0.6s   
-
-2015-12-16 15:29:41 (1.11 MB/s) - 'full_2strand/3SF5.pdb' saved [712881]
-
-3sf5_B.pds 1.62203 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 1.64087 FOUND!
-350 351 352 353 354
-7 8 9 10 11
-44 45 46 47
-114 115 116 117 118 119 120 121 122
-
-4dn7_A.pds 1.65523 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 1.66862 FOUND!
-350 351 352 353 354
-43 44 45 46 47
-114 115 116 117 118 119 120
-
-4dn7_A.pds 1.69244 FOUND!
-350 351 352 353 354
-100 101 102 103
-116 117 118 119 120 121 122
-
-4dn7_A.pds 1.72692 FOUND!
-350 351 352 353 354
-116 117 118 119 120 121 122 123
-
-1vh4_A.pds 1.73748 FOUND!
-350 351 352 353 354
-43 44 45 46 47
-114 115 116 117
-
-1vh4_A.pds 1.75456 FOUND!
-350 351 352 353 354
-385 386 387 388 389
-393 394 395 396 397 398 399 400 401
-
-3sf5_B.pds 1.75881 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 1.75908 FOUND!
-350 351 352 353 354
-377 378 379 380 381 382 383 384 385 386 387 388
-
-4dn7_A.pds 1.77406 FOUND!
-350 351 352 353 354
-381 382 383 384
-389 390 391 392 393 394 395 396 397 398 399 400
-
-4dn7_A.pds 1.85752 FOUND!
-350 351 352 353 354
-116 117 118 119
-
-1vh4_A.pds 1.90157 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 1.91068 FOUND!
-350 351 352 353 354
-378 379 380 381 382 383 384
-400 401 402 403 404 405
-
-1vh4_A.pds 1.92282 FOUND!
-350 351 352 353 354
-377 378 379 380 381 382 383 384 385 386 387 388
-401 402 403 404 405 406
-
---2015-12-16 15:29:44--  http://www.rcsb.org/pdb/files/4DT5.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/4DT5.pdb'
-
-4DT5.pdb                       [  <=>                                      ] 393.69K  1001KB/s   in 0.4s   
-
-2015-12-16 15:29:44 (1001 KB/s) - 'full_2strand/4DT5.pdb' saved [403137]
-
-4dt5_A.pds 2.06859 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.10656 FOUND!
-350 351 352 353 354
-384 385 386 387 388 389
-397 398 399 400 401 402 403 404 405 406
-
---2015-12-16 15:29:45--  http://www.rcsb.org/pdb/files/3U1K.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/3U1K.pdb'
-
-3U1K.pdb                       [     <=>                                   ]   1.64M  1.66MB/s   in 1.0s   
-
-2015-12-16 15:29:46 (1.66 MB/s) - 'full_2strand/3U1K.pdb' saved [1722789]
-
-3u1k_A.pds 2.11742 FOUND!
-350 351 352 353 354
-78 79 80 81 82
-289 290 291 292 293
-365 366 367 368 369
-
-4dn7_A.pds 2.15094 FOUND!
-350 351 352 353 354
-116 117 118 119 120 121 122 123
-
-1vh4_A.pds 2.17219 FOUND!
-350 351 352 353 354
-393 394 395 396 397 398 399 400 401 402 403 404
-
---2015-12-16 15:29:47--  http://www.rcsb.org/pdb/files/4AGI.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/4AGI.pdb'
-
-4AGI.pdb                       [  <=>                                      ] 996.44K  2.56MB/s   in 0.4s   
-
-2015-12-16 15:29:47 (2.56 MB/s) - 'full_2strand/4AGI.pdb' saved [1020357]
-
-4agi_A.pds 2.17556 zero or <4 helical residues; SKIP
-
-4dn7_A.pds 2.17702 FOUND!
-350 351 352 353 354
-370 371 372 373 374 375 376 377 378 379 380 381 382 383 384
-400 401 402 403 404 405
-
-1vh4_A.pds 2.20625 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.20724 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.21492 FOUND!
-350 351 352 353 354
-380 381 382 383 384 385 386 387 388
-401 402 403 404 405 406
-
---2015-12-16 15:29:48--  http://www.rcsb.org/pdb/files/4GPV.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/4GPV.pdb'
-
-4GPV.pdb                       [  <=>                                      ] 889.26K  2.24MB/s   in 0.4s   
-
-2015-12-16 15:29:48 (2.24 MB/s) - 'full_2strand/4GPV.pdb' saved [910602]
-
-4gpv_A.pds 2.2304 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 2.27161 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 2.27216 FOUND!
-350 351 352 353 354
-373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388
-
-4dn7_A.pds 2.27563 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.28502 FOUND!
-350 351 352 353 354
-43 44 45 46 47
-114 115 116 117 118 119 120
-
-1vh4_A.pds 2.29333 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.29341 FOUND!
-350 351 352 353 354
-380 381 382 383 384
-
-4dn7_A.pds 2.30243 FOUND!
-350 351 352 353 354
-393 394 395 396 397 398 399 400
-
-1vh4_A.pds 2.30602 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.32056 FOUND!
-350 351 352 353 354
-
-4dn7_A.pds 2.32807 zero or <4 helical residues; SKIP
-
-1vh4_A.pds 2.33219 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:29:50--  http://www.rcsb.org/pdb/files/3VDI.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/3VDI.pdb'
-
-3VDI.pdb                       [  <=>                                      ] 637.24K  1.71MB/s   in 0.4s   
-
-2015-12-16 15:29:51 (1.71 MB/s) - 'full_2strand/3VDI.pdb' saved [652536]
-
-3vdi_A.pds 2.33564 zero or <4 helical residues; SKIP
-
-4dn7_A.pds 2.338 FOUND!
-350 351 352 353 354
-400 401 402 403 404 405
-
-4dn7_A.pds 2.35088 FOUND!
-350 351 352 353 354
-
-1vh4_A.pds 2.35636 FOUND!
-350 351 352 353 354
-373 374 375 376 377 378 379 380 381
-
-4dn7_A.pds 2.35653 FOUND!
-350 351 352 353 354
-374 375 376 377 378 379 380 381 382 383 384
-
-1vh4_A.pds 2.35978 zero or <4 helical residues; SKIP
-
---2015-12-16 15:29:52--  http://www.rcsb.org/pdb/files/4QRK.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/4QRK.pdb'
-
-4QRK.pdb                       [ <=>                                       ] 314.75K  1.77MB/s   in 0.2s   
-
-2015-12-16 15:29:52 (1.77 MB/s) - 'full_2strand/4QRK.pdb' saved [322299]
-
-4qrk_A.pds 2.36244 FOUND!
-350 351 352 353 354
-
---2015-12-16 15:29:52--  http://www.rcsb.org/pdb/files/3F83.pdb
-Resolving www.rcsb.org... 132.249.231.10
-Connecting to www.rcsb.org|132.249.231.10|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified
-Saving to: 'full_2strand/3F83.pdb'
-
-3F83.pdb                       [  <=>                                      ] 373.91K  1.82MB/s   in 0.2s   
-
-2015-12-16 15:29:52 (1.82 MB/s) - 'full_2strand/3F83.pdb' saved [382887]
-
-3f83_A.pds 2.36419 FOUND!
-350 351 352 353 354
-139 140 141 142
-
+4DT5.pds 2.06859 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+2PNE.pds 2.23532 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+3EOJ.pds 2.32028 /home/xray/peptideAmyloid/masterSubDir/3EOJ.pdb
+FOUND!
+full_2strand_helixMatches/match3_0_3EOJ.pdb
+Target structure match3_0_3EOJ_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.32028 tmp/matchEXT.pds [(14,27), (0,13)] 2.32028
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.32242 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+4QRK.pds 2.36244 /home/xray/peptideAmyloid/masterSubDir/4QRK.pdb
+no valid helical segments found
+
+3BOG.pds 2.38193 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+1F97.pds 2.41643 /home/xray/peptideAmyloid/masterSubDir/1F97.pdb
+no valid helical segments found
+
+2PNE.pds 2.47292 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+4G2A.pds 2.51258 /home/xray/peptideAmyloid/masterSubDir/4G2A.pdb
+no valid helical segments found
+
+3BOG.pds 2.52841 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+4IS2.pds 2.53337 /home/xray/peptideAmyloid/masterSubDir/4IS2.pdb
+FOUND!
+full_2strand_helixMatches/match11_0_4IS2.pdb
+Target structure match11_0_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.53337 tmp/matchEXT.pds [(42,55), (0,13)] 2.53337
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match11_1_4IS2.pdb
+Target structure match11_1_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.53337 tmp/matchEXT.pds [(14,27), (0,13)] 2.53337
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.54496 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+2PNE.pds 2.55223 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+3A57.pds 2.55722 /home/xray/peptideAmyloid/masterSubDir/3A57.pdb
+FOUND!
+full_2strand_helixMatches/match14_0_3A57.pdb
+Target structure match14_0_3A57_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.55722 tmp/matchEXT.pds [(14,27), (0,13)] 2.55722
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2HC9.pds 2.56856 /home/xray/peptideAmyloid/masterSubDir/2HC9.pdb
+FOUND!
+full_2strand_helixMatches/match15_0_2HC9.pdb
+Target structure match15_0_2HC9_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.56856 tmp/matchEXT.pds [(9,22), (23,36)] 2.56856
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match15_1_2HC9.pdb
+Error: could not read file full_2strand_helixMatches/match15_1_2HC9_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+full_2strand_helixMatches/match15_2_2HC9.pdb
+Target structure match15_2_2HC9_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.56856 tmp/matchEXT.pds [(0,13), (20,33)] 2.56856
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match15_3_2HC9.pdb
+Target structure match15_3_2HC9_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.56856 tmp/matchEXT.pds [(0,13), (14,27)] 2.56856
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.57927 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+3BOG.pds 2.58685 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+1F97.pds 2.5904 /home/xray/peptideAmyloid/masterSubDir/1F97.pdb
+no valid helical segments found
+
+1J8R.pds 2.59452 /home/xray/peptideAmyloid/masterSubDir/1J8R.pdb
+FOUND!
+full_2strand_helixMatches/match19_0_1J8R.pdb
+Target structure match19_0_1J8R_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.59452 tmp/matchEXT.pds [(20,33), (0,13)] 2.59452
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1UDX.pds 2.59782 /home/xray/peptideAmyloid/masterSubDir/1UDX.pdb
+FOUND!
+full_2strand_helixMatches/match20_0_1UDX.pdb
+Target structure match20_0_1UDX_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.59782 tmp/matchEXT.pds [(14,27), (0,13)] 2.59782
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3IDU.pds 2.61945 /home/xray/peptideAmyloid/masterSubDir/3IDU.pdb
+no valid helical segments found
+
+2VO8.pds 2.62143 /home/xray/peptideAmyloid/masterSubDir/2VO8.pdb
+no valid helical segments found
+
+1QZ1.pds 2.62672 /home/xray/peptideAmyloid/masterSubDir/1QZ1.pdb
+no valid helical segments found
+
+3BOG.pds 2.62686 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+1AUK.pds 2.6276 /home/xray/peptideAmyloid/masterSubDir/1AUK.pdb
+FOUND!
+full_2strand_helixMatches/match25_0_1AUK.pdb
+Target structure match25_0_1AUK_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6276 tmp/matchEXT.pds [(0,13), (32,45)] 2.6276
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match25_1_1AUK.pdb
+Target structure match25_1_1AUK_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6276 tmp/matchEXT.pds [(0,13), (14,27)] 2.6276
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match25_2_1AUK.pdb
+Target structure match25_2_1AUK_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6276 tmp/matchEXT.pds [(0,13), (14,27)] 2.6276
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2PNE.pds 2.62841 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+2ODL.pds 2.63901 /home/xray/peptideAmyloid/masterSubDir/2ODL.pdb
+zero or <4 helical residues; SKIP
+
+3ZPP.pds 2.64157 /home/xray/peptideAmyloid/masterSubDir/3ZPP.pdb
+no valid helical segments found
+
+1UDX.pds 2.64949 /home/xray/peptideAmyloid/masterSubDir/1UDX.pdb
+no valid helical segments found
+
+2PNE.pds 2.65865 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+2ODL.pds 2.67014 /home/xray/peptideAmyloid/masterSubDir/2ODL.pdb
+zero or <4 helical residues; SKIP
+
+3BOG.pds 2.67399 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+1F97.pds 2.67792 /home/xray/peptideAmyloid/masterSubDir/1F97.pdb
+no valid helical segments found
+
+4O8Q.pds 2.67899 /home/xray/peptideAmyloid/masterSubDir/4O8Q.pdb
+FOUND!
+full_2strand_helixMatches/match34_0_4O8Q.pdb
+Target structure match34_0_4O8Q_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.67899 tmp/matchEXT.pds [(18,31), (0,13)] 2.67899
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.68045 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+2X7I.pds 2.68713 /home/xray/peptideAmyloid/masterSubDir/2X7I.pdb
+FOUND!
+full_2strand_helixMatches/match36_0_2X7I.pdb
+Target structure match36_0_2X7I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.68713 tmp/matchEXT.pds [(0,13), (25,38)] 2.68713
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match36_1_2X7I.pdb
+Target structure match36_1_2X7I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.68713 tmp/matchEXT.pds [(0,13), (14,27)] 2.68713
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2QZU.pds 2.6898 /home/xray/peptideAmyloid/masterSubDir/2QZU.pdb
+FOUND!
+full_2strand_helixMatches/match37_0_2QZU.pdb
+Target structure match37_0_2QZU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6898 tmp/matchEXT.pds [(0,13), (22,35)] 2.6898
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match37_1_2QZU.pdb
+Target structure match37_1_2QZU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6898 tmp/matchEXT.pds [(0,13), (32,45)] 2.6898
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match37_2_2QZU.pdb
+Target structure match37_2_2QZU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6898 tmp/matchEXT.pds [(0,13), (14,27)] 2.6898
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match37_3_2QZU.pdb
+Target structure match37_3_2QZU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.6898 tmp/matchEXT.pds [(0,13), (14,27)] 2.6898
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.69882 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+4OFK.pds 2.69962 /home/xray/peptideAmyloid/masterSubDir/4OFK.pdb
+no valid helical segments found
+
+3IUU.pds 2.70062 /home/xray/peptideAmyloid/masterSubDir/3IUU.pdb
+FOUND!
+full_2strand_helixMatches/match40_0_3IUU.pdb
+Target structure match40_0_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70062 tmp/matchEXT.pds [(0,13), (22,35)] 2.70062
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match40_1_3IUU.pdb
+Target structure match40_1_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70062 tmp/matchEXT.pds [(0,13), (26,39)] 2.70062
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match40_2_3IUU.pdb
+Target structure match40_2_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70062 tmp/matchEXT.pds [(0,13), (14,27)] 2.70062
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match40_3_3IUU.pdb
+Target structure match40_3_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70062 tmp/matchEXT.pds [(0,13), (14,27)] 2.70062
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1UDX.pds 2.70081 /home/xray/peptideAmyloid/masterSubDir/1UDX.pdb
+no valid helical segments found
+
+2W3Y.pds 2.70297 /home/xray/peptideAmyloid/masterSubDir/2W3Y.pdb
+FOUND!
+full_2strand_helixMatches/match42_0_2W3Y.pdb
+Target structure match42_0_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70297 tmp/matchEXT.pds [(39,52), (0,13)] 2.70297
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match42_1_2W3Y.pdb
+Target structure match42_1_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70297 tmp/matchEXT.pds [(19,32), (0,13)] 2.70297
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match42_2_2W3Y.pdb
+Target structure match42_2_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70297 tmp/matchEXT.pds [(24,37), (0,13)] 2.70297
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match42_3_2W3Y.pdb
+Target structure match42_3_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70297 tmp/matchEXT.pds [(34,47), (0,13)] 2.70297
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2I9I.pds 2.70302 /home/xray/peptideAmyloid/masterSubDir/2I9I.pdb
+FOUND!
+full_2strand_helixMatches/match43_0_2I9I.pdb
+Target structure match43_0_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70302 tmp/matchEXT.pds [(0,13), (31,44)] 2.70302
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match43_1_2I9I.pdb
+Target structure match43_1_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70302 tmp/matchEXT.pds [(0,13), (14,27)] 2.70302
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match43_2_2I9I.pdb
+Target structure match43_2_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70302 tmp/matchEXT.pds [(0,13), (14,27)] 2.70302
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2W3Y.pds 2.70674 /home/xray/peptideAmyloid/masterSubDir/2W3Y.pdb
+FOUND!
+full_2strand_helixMatches/match44_0_2W3Y.pdb
+Target structure match44_0_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70674 tmp/matchEXT.pds [(39,52), (0,13)] 2.70674
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match44_1_2W3Y.pdb
+Target structure match44_1_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70674 tmp/matchEXT.pds [(24,37), (0,13)] 2.70674
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match44_2_2W3Y.pdb
+Target structure match44_2_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70674 tmp/matchEXT.pds [(34,47), (0,13)] 2.70674
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match44_3_2W3Y.pdb
+Target structure match44_3_2W3Y_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.70674 tmp/matchEXT.pds [(14,27), (0,13)] 2.70674
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2P0L.pds 2.713 /home/xray/peptideAmyloid/masterSubDir/2P0L.pdb
+FOUND!
+full_2strand_helixMatches/match45_0_2P0L.pdb
+Error: could not read file full_2strand_helixMatches/match45_0_2P0L_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+full_2strand_helixMatches/match45_1_2P0L.pdb
+Target structure match45_1_2P0L_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.713 tmp/matchEXT.pds [(14,27), (0,13)] 2.713
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match45_2_2P0L.pdb
+Target structure match45_2_2P0L_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.713 tmp/matchEXT.pds [(14,27), (0,13)] 2.713
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2VO8.pds 2.71449 /home/xray/peptideAmyloid/masterSubDir/2VO8.pdb
+no valid helical segments found
+
+1F97.pds 2.71481 /home/xray/peptideAmyloid/masterSubDir/1F97.pdb
+no valid helical segments found
+
+4DT5.pds 2.71979 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+4DT5.pds 2.72094 /home/xray/peptideAmyloid/masterSubDir/4DT5.pdb
+zero or <4 helical residues; SKIP
+
+2PNE.pds 2.7258 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+2I9I.pds 2.72753 /home/xray/peptideAmyloid/masterSubDir/2I9I.pdb
+FOUND!
+full_2strand_helixMatches/match51_0_2I9I.pdb
+Target structure match51_0_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.72753 tmp/matchEXT.pds [(0,13), (32,45)] 2.72753
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match51_1_2I9I.pdb
+Target structure match51_1_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.72753 tmp/matchEXT.pds [(0,13), (14,27)] 2.72753
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match51_2_2I9I.pdb
+Target structure match51_2_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.72753 tmp/matchEXT.pds [(0,13), (14,27)] 2.72753
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match51_3_2I9I.pdb
+Target structure match51_3_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.72753 tmp/matchEXT.pds [(0,13), (14,27)] 2.72753
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2PF6.pds 2.72959 /home/xray/peptideAmyloid/masterSubDir/2PF6.pdb
+no valid helical segments found
+
+2VO8.pds 2.73125 /home/xray/peptideAmyloid/masterSubDir/2VO8.pdb
+no valid helical segments found
+
+3ZPP.pds 2.73133 /home/xray/peptideAmyloid/masterSubDir/3ZPP.pdb
+no valid helical segments found
+
+3EOJ.pds 2.74183 /home/xray/peptideAmyloid/masterSubDir/3EOJ.pdb
+FOUND!
+full_2strand_helixMatches/match55_0_3EOJ.pdb
+Target structure match55_0_3EOJ_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.74183 tmp/matchEXT.pds [(14,27), (0,13)] 2.74183
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2I9I.pds 2.74503 /home/xray/peptideAmyloid/masterSubDir/2I9I.pdb
+FOUND!
+full_2strand_helixMatches/match56_0_2I9I.pdb
+Target structure match56_0_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.74503 tmp/matchEXT.pds [(0,13), (32,45)] 2.74503
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match56_1_2I9I.pdb
+Target structure match56_1_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.74503 tmp/matchEXT.pds [(0,13), (14,27)] 2.74503
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match56_2_2I9I.pdb
+Target structure match56_2_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.74503 tmp/matchEXT.pds [(0,13), (14,27)] 2.74503
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match56_3_2I9I.pdb
+Target structure match56_3_2I9I_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.74503 tmp/matchEXT.pds [(0,13), (14,27)] 2.74503
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1F97.pds 2.74559 /home/xray/peptideAmyloid/masterSubDir/1F97.pdb
+no valid helical segments found
+
+3BOG.pds 2.74621 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+2WV3.pds 2.74931 /home/xray/peptideAmyloid/masterSubDir/2WV3.pdb
+FOUND!
+full_2strand_helixMatches/match59_0_2WV3.pdb
+Target structure match59_0_2WV3_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.74931 tmp/matchEXT.pds [(18,31), (0,13)] 2.74931
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.74931 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+4KKN.pds 2.76136 /home/xray/peptideAmyloid/masterSubDir/4KKN.pdb
+zero or <4 helical residues; SKIP
+
+2PNE.pds 2.76151 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+2ODL.pds 2.76326 /home/xray/peptideAmyloid/masterSubDir/2ODL.pdb
+no valid helical segments found
+
+2PF6.pds 2.76581 /home/xray/peptideAmyloid/masterSubDir/2PF6.pdb
+no valid helical segments found
+
+4OF6.pds 2.77177 /home/xray/peptideAmyloid/masterSubDir/4OF6.pdb
+no valid helical segments found
+
+1UDX.pds 2.77691 /home/xray/peptideAmyloid/masterSubDir/1UDX.pdb
+zero or <4 helical residues; SKIP
+
+4O8Q.pds 2.77892 /home/xray/peptideAmyloid/masterSubDir/4O8Q.pdb
+FOUND!
+full_2strand_helixMatches/match67_0_4O8Q.pdb
+Target structure match67_0_4O8Q_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.77892 tmp/matchEXT.pds [(18,31), (0,13)] 2.77892
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2PNE.pds 2.77937 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+3BOG.pds 2.78128 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+4KAV.pds 2.78263 /home/xray/peptideAmyloid/masterSubDir/4KAV.pdb
+FOUND!
+full_2strand_helixMatches/match70_0_4KAV.pdb
+Target structure match70_0_4KAV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.78263 tmp/matchEXT.pds [(0,13), (28,41)] 2.78263
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match70_1_4KAV.pdb
+Target structure match70_1_4KAV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.78263 tmp/matchEXT.pds [(0,13), (14,27)] 2.78263
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match70_2_4KAV.pdb
+Target structure match70_2_4KAV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.78263 tmp/matchEXT.pds [(0,13), (14,27)] 2.78263
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match70_3_4KAV.pdb
+Target structure match70_3_4KAV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.78263 tmp/matchEXT.pds [(0,13), (14,27)] 2.78263
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4OFK.pds 2.78498 /home/xray/peptideAmyloid/masterSubDir/4OFK.pdb
+zero or <4 helical residues; SKIP
+
+3ZPP.pds 2.78805 /home/xray/peptideAmyloid/masterSubDir/3ZPP.pdb
+no valid helical segments found
+
+3IDU.pds 2.79118 /home/xray/peptideAmyloid/masterSubDir/3IDU.pdb
+no valid helical segments found
+
+4IS2.pds 2.798 /home/xray/peptideAmyloid/masterSubDir/4IS2.pdb
+FOUND!
+full_2strand_helixMatches/match74_0_4IS2.pdb
+Target structure match74_0_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.798 tmp/matchEXT.pds [(25,38), (11,24)] 2.798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match74_1_4IS2.pdb
+Target structure match74_1_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.798 tmp/matchEXT.pds [(25,38), (11,24)] 2.798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match74_2_4IS2.pdb
+Target structure match74_2_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.798 tmp/matchEXT.pds [(25,38), (0,13)] 2.798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match74_3_4IS2.pdb
+Target structure match74_3_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.798 tmp/matchEXT.pds [(30,43), (0,13)] 2.798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match74_4_4IS2.pdb
+Target structure match74_4_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.798 tmp/matchEXT.pds [(14,27), (0,13)] 2.798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match74_5_4IS2.pdb
+Target structure match74_5_4IS2_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.798 tmp/matchEXT.pds [(14,27), (0,13)] 2.798
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3PUC.pds 2.80123 /home/xray/peptideAmyloid/masterSubDir/3PUC.pdb
+zero or <4 helical residues; SKIP
+
+1QZ1.pds 2.80134 /home/xray/peptideAmyloid/masterSubDir/1QZ1.pdb
+no valid helical segments found
+
+1I31.pds 2.80144 /home/xray/peptideAmyloid/masterSubDir/1I31.pdb
+no valid helical segments found
+
+4AF8.pds 2.80296 /home/xray/peptideAmyloid/masterSubDir/4AF8.pdb
+FOUND!
+full_2strand_helixMatches/match78_0_4AF8.pdb
+Error: could not read file full_2strand_helixMatches/match78_0_4AF8_ext.pdb.
+[Visiting 1/1 tmp/match.pds...]
+Error: could not open file tmp/match.pds.
+mv: cannot stat ‘tmp/full1.pdb’: No such file or directory
+
+full_2strand_helixMatches/match78_1_4AF8.pdb
+Target structure match78_1_4AF8_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.80296 tmp/matchEXT.pds [(14,27), (0,13)] 2.80296
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+2WXY.pds 2.80602 /home/xray/peptideAmyloid/masterSubDir/2WXY.pdb
+FOUND!
+full_2strand_helixMatches/match79_0_2WXY.pdb
+Target structure match79_0_2WXY_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.80602 tmp/matchEXT.pds [(15,28), (29,42)] 2.80602
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4BZA.pds 2.80621 /home/xray/peptideAmyloid/masterSubDir/4BZA.pdb
+FOUND!
+full_2strand_helixMatches/match80_0_4BZA.pdb
+Target structure match80_0_4BZA_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.80621 tmp/matchEXT.pds [(0,13), (23,36)] 2.80621
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match80_1_4BZA.pdb
+Target structure match80_1_4BZA_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.80621 tmp/matchEXT.pds [(0,13), (32,45)] 2.80621
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4QRK.pds 2.80757 /home/xray/peptideAmyloid/masterSubDir/4QRK.pdb
+no valid helical segments found
+
+3V55.pds 2.81698 /home/xray/peptideAmyloid/masterSubDir/3V55.pdb
+FOUND!
+full_2strand_helixMatches/match82_0_3V55.pdb
+Target structure match82_0_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.81698 tmp/matchEXT.pds [(30,43), (16,29)] 2.81698
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match82_1_3V55.pdb
+Target structure match82_1_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.81698 tmp/matchEXT.pds [(14,27), (0,13)] 2.81698
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3IUU.pds 2.81891 /home/xray/peptideAmyloid/masterSubDir/3IUU.pdb
+FOUND!
+full_2strand_helixMatches/match83_0_3IUU.pdb
+Target structure match83_0_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.81891 tmp/matchEXT.pds [(0,13), (22,35)] 2.81891
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match83_1_3IUU.pdb
+Target structure match83_1_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.81891 tmp/matchEXT.pds [(0,13), (26,39)] 2.81891
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match83_2_3IUU.pdb
+Target structure match83_2_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.81891 tmp/matchEXT.pds [(0,13), (14,27)] 2.81891
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match83_3_3IUU.pdb
+Target structure match83_3_3IUU_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.81891 tmp/matchEXT.pds [(0,13), (14,27)] 2.81891
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1I31.pds 2.82083 /home/xray/peptideAmyloid/masterSubDir/1I31.pdb
+no valid helical segments found
+
+1UDX.pds 2.82224 /home/xray/peptideAmyloid/masterSubDir/1UDX.pdb
+zero or <4 helical residues; SKIP
+
+4FUV.pds 2.82337 /home/xray/peptideAmyloid/masterSubDir/4FUV.pdb
+FOUND!
+full_2strand_helixMatches/match86_0_4FUV.pdb
+Target structure match86_0_4FUV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.82337 tmp/matchEXT.pds [(0,13), (14,27)] 2.82337
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match86_1_4FUV.pdb
+Target structure match86_1_4FUV_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.82337 tmp/matchEXT.pds [(0,13), (14,27)] 2.82337
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3NJN.pds 2.82566 /home/xray/peptideAmyloid/masterSubDir/3NJN.pdb
+no valid helical segments found
+
+3BOG.pds 2.82599 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+2PNE.pds 2.82649 /home/xray/peptideAmyloid/masterSubDir/2PNE.pdb
+zero or <4 helical residues; SKIP
+
+3V55.pds 2.82778 /home/xray/peptideAmyloid/masterSubDir/3V55.pdb
+FOUND!
+full_2strand_helixMatches/match90_0_3V55.pdb
+Target structure match90_0_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.82778 tmp/matchEXT.pds [(28,41), (14,27)] 2.82778
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match90_1_3V55.pdb
+Target structure match90_1_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.82778 tmp/matchEXT.pds [(28,41), (14,27)] 2.82778
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match90_2_3V55.pdb
+Target structure match90_2_3V55_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.82778 tmp/matchEXT.pds [(24,37), (0,13)] 2.82778
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+3BOG.pds 2.82827 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+1F97.pds 2.83111 /home/xray/peptideAmyloid/masterSubDir/1F97.pdb
+no valid helical segments found
+
+2BK8.pds 2.83195 /home/xray/peptideAmyloid/masterSubDir/2BK8.pdb
+no valid helical segments found
+
+3BOG.pds 2.83518 /home/xray/peptideAmyloid/masterSubDir/3BOG.pdb
+zero or <4 helical residues; SKIP
+
+4O8Q.pds 2.83539 /home/xray/peptideAmyloid/masterSubDir/4O8Q.pdb
+FOUND!
+full_2strand_helixMatches/match95_0_4O8Q.pdb
+Target structure match95_0_4O8Q_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.83539 tmp/matchEXT.pds [(18,31), (0,13)] 2.83539
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4QRK.pds 2.83822 /home/xray/peptideAmyloid/masterSubDir/4QRK.pdb
+no valid helical segments found
+
+3N54.pds 2.84295 /home/xray/peptideAmyloid/masterSubDir/3N54.pdb
+FOUND!
+full_2strand_helixMatches/match97_0_3N54.pdb
+Target structure match97_0_3N54_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.84295 tmp/matchEXT.pds [(25,38), (11,24)] 2.84295
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match97_1_3N54.pdb
+Target structure match97_1_3N54_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.84295 tmp/matchEXT.pds [(42,55), (0,13)] 2.84295
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match97_2_3N54.pdb
+Target structure match97_2_3N54_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.84295 tmp/matchEXT.pds [(22,35), (0,13)] 2.84295
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match97_3_3N54.pdb
+Target structure match97_3_3N54_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.84295 tmp/matchEXT.pds [(20,33), (0,13)] 2.84295
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+full_2strand_helixMatches/match97_4_3N54.pdb
+Target structure match97_4_3N54_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.84295 tmp/matchEXT.pds [(20,33), (0,13)] 2.84295
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+4BJ1.pds 2.84439 /home/xray/peptideAmyloid/masterSubDir/4BJ1.pdb
+FOUND!
+full_2strand_helixMatches/match98_0_4BJ1.pdb
+Target structure match98_0_4BJ1_ext created.
+Ca atom coordinates section in file tmp/matchEXT.pds checked.
+[Visiting 1/1 tmp/matchEXT.pds...]
+Search completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+2.84439 tmp/matchEXT.pds [(31,44), (17,30)] 2.84439
+Output completed in 0.00 seconds, and used 0.00 seconds of CPU time.
+
+
+1U2H.pds 2.84738 /home/xray/peptideAmyloid/masterSubDir/1U2H.pdb
+zero or <4 helical residues; SKIP
+
+3BOV.pds 2.84829 /home/xray/peptideAmyloid/masterSubDir/3BOV.pdb
+no valid helical segments found
+
+xray@dgl-xray:~/peptideAmyloid/searchFrags$ 

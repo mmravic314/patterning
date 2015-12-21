@@ -1,4 +1,4 @@
-REMARK Selection 'resnum 105 106 ...150 151 152 153'
+REMARK 2.80621 tmp/matchEXT.pds [(0,13), (32,45)] 2.80621
 ATOM      1  N   VAL A  70     -24.903  16.257   2.306  1.00 46.67           N
 ATOM      2  CA  VAL A  70     -23.762  16.873   1.681  1.00 45.57           C
 ATOM      3  C   VAL A  70     -23.290  18.033   2.564  1.00 46.49           C

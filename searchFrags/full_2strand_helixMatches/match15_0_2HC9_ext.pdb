@@ -1,4 +1,4 @@
-REMARK Selection 'resnum 216 217 ...304 305 306 307'
+REMARK 2.56856 tmp/matchEXT.pds [(9,22), (23,36)] 2.56856
 ATOM      1  N   GLY A 216     -28.343  36.984  -8.647  1.00 17.88           N
 ATOM      2  CA  GLY A 216     -28.282  38.445  -8.716  1.00 16.70           C
 ATOM      3  C   GLY A 216     -27.030  39.013  -8.066  1.00 15.20           C
