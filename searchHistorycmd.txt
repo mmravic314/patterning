@@ -12,4 +12,7 @@
 > for i in *.pds; do ~/termanal/master --query $i --targetList ~/termanal/support.default/151218_masterDB_oPDB/list.txt --rmsdCut 3.2 --topN 100 --matchOut $i.m --structOut $i.struct ; done
 
 ## look into match lists and go copy the parsed createPDS output pdbs from main database into a subdirectory ( to look up hits and surrounding residues)
->
+> python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m  n9_2strand.pds.struct ~/peptideAmyloid/masterSubDir/
+
+## hash B-strand vs non strand (helical dihedrals)
+> for i in *helixMatches; do cd i ; for f in `ls`; do ~/bin/dsspcmbi $f $f.dssp; done; cd ..; done  
