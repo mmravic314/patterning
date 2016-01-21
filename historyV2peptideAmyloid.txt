@@ -1,0 +1,48 @@
+## After making fragments of the amyloid surface exposed interface
+>for i in ~/peptideAmlyoid/searchFrags/*.pdb; do ~/termanal/createPDS --type query --pdb  $i; done
+
+> for i in ~/peptideAmlyoid/searchFrags/*.pds; do ~/termanal/master --query $i --targetList ~/termanal/support.default/database/list --topN 5000 --rmsdCut 5 --matchOut $i.m; done
+
+## Reran it with new protein database 30% seq ID and resolution <3.0 A. full pdb's not single chain
+## Downloaded from PISCES culled list
+> for i in *.pdb; do ~/termanal/createPDS --type target --pdb $i --opdb  /home/xray/termanal/support.default/151218_masterDB_parsedPDB/$i; done
+# Saved the ourput of parse PDBs to re-find matches by the .m indexing... to find if any helical regions are nearby
+
+> for i in *.pds; do ~/termanal/master --query $i --targetList ~/termanal/support.default/151218_masterDB_oPDB/list.txt --rmsdCut 3.2 --topN 100 --matchOut $i.m --structOut $i.struct ; done
+
+## look into match lists and go copy the parsed createPDS output pdbs from main database into a subdirectory ( to look up hits and surrounding residues)
+### I don't  think I did this line, but rather the below command > python pdbSubsetFind.py ~/peptideAmyloid/searchFrags (makes master subdir??)
+# ???????????????
+
+# Go through match list to amyloid fragment, and search original PDBs for nearby helices. Extend helix if it is longer in original PDB
+# Then align found helix to corresponding amyloid strands
+> python ~/bin/matchLookup.py n9_2strand.pdb n9_2strand.pds.m  n9_2strand.pds.struct ~/peptideAmyloid/masterSubDir/ ~/termanal/
+> python ~/bin/matchLookup.py c9_2strand.pdb c9_2strand.pds.m  n9_2strand.pds.struct ~/peptideAmyloid/masterSubDir/ ~/termanal/
+
+## VISUALLY screen all the helices that are not close to the proper surface of the amyloid, or too small, or just bad
+## place into directory.
+> mkdir helix_hits_visual/
+
+## For the recovered "helix-strand" fragment, run DSSP to find helical chains/fragments
+for i in *helix_matches/; do cd $i; for f in `ls`; do ~/bin/dsspcmbi $f $f.dssp; done; cd ..; done
+
+# given the DSSP files definintions, hash the residues of each proteins
+python ~/bin/parseDssp.py n9_2strand_helixMatches/ FullInterface.pdb 1helix/ helix_hits_visual/  docked1helix.pkl
+>python ~/bin/parseDssp.py c9_2strand_helixMatches/ FullInterface.pdb 1helix/ helix_hits_visual/  docked1helix.pkl
+
+### Visiually, remove residue from the ends of the helix if they extend past the surface of the amyloid... like into space/nowhere
+
+## For each docked helix, extend it 4 to each end, then find poriton of that helix that is ar proper distance to amyloid surface
+## For intefaces found, fit the helix to the best alignment (> 15 residues) to each helical pair in a Cluster(4, SOL, anti-right-int)
+# ensure a 15 residue segment of the pair-helix found is interacting/not clashing with the the surface. output PDB
+# store the residues of each helix to fix during backbone minimization in pdb title.
+> python ~/bin/alignHelicesOsaka.py ~/peptideAmyloid/searchFrags/1helix/ ~/peptideAmyloid/searchFrags/2helix ~/splayBundle/Cluster-004/ ~/bin/TMalign docked1helix.pkl FullInterface.pdb 
+
+### Prepare these files for ROSETTA
+### 1) renumber 2) constraint file 3) resfile 
+
+
+
+
+
+
