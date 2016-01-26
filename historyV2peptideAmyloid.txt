@@ -36,12 +36,20 @@ python ~/bin/parseDssp.py n9_2strand_helixMatches/ FullInterface.pdb 1helix/ hel
 ## For intefaces found, fit the helix to the best alignment (> 15 residues) to each helical pair in a Cluster(4, SOL, anti-right-int)
 # ensure a 15 residue segment of the pair-helix found is interacting/not clashing with the the surface. output PDB
 # store the residues of each helix to fix during backbone minimization in pdb title.
+> 
 > python ~/bin/alignHelicesOsaka.py ~/peptideAmyloid/searchFrags/1helix/ ~/peptideAmyloid/searchFrags/2helix ~/splayBundle/Cluster-004/ ~/bin/TMalign docked1helix.pkl FullInterface.pdb 
 
 ### Prepare these files for ROSETTA
 ### 1) renumber 2) constraint file 3) resfile 
 
+> mkdir ~/peptideAmyloid/rosettaFixBB/
+> cd ~/peptide Amyloid
+> python ~/bin/peptidePrepRosetta.py ~/peptideAmyloid/searchFrags/2helix/ ~/peptideAmyloid/rosettaFixBB/
 
+# Rosetta runs
+## Local, single input
+> cd ~/peptideAmyloid/rosettaFixBB 
+> python submitPatterningJobs.py ~/binLocal/Rosetta/main/ ~/peptideAmyloid/rosettaFixBB/input1/input1.pdb ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravic.xml  ~/peptideAmyloid/rosettaFixBB/input1/input1.resfile ~/peptideAmyloid/rosettaFixBB/input1/input1.cst ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp 
 
 
 
