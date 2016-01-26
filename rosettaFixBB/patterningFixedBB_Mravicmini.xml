@@ -64,7 +64,7 @@
 
  <FILTERS>
 
- 	<PackStat name=packstat threshold=0.4 confidence=1/>
+ 	<PackStat name=packstat threshold=0.4 confidence=0/>
  	<BuriedUnsatHbonds name=uhb scorefxn=hard confidence=0/>
 
  </FILTERS>

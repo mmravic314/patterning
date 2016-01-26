@@ -6,30 +6,40 @@
 # -parser:script_vars cst_file=PATH comp_file=PATH
 
 # 1) path 2 rosetta main
-# 2) path to input structure
+# 2) path to input dir ( auto-find: resfile, cst_file, structure )
 # 3) path to XML script for protocol
-# 4) resfile path
-# 5) atom restraint coordinate path
-# 6) residue composition score file path
-import sys, os, subprocess as sp
+# 4) residue composition score file path
+import sys, os, subprocess as sp, re
 
-# python submitPatterningJobs.py ~/binLocal/Rosetta/main/ ~/peptideAmyloid/rosettaFixBB/input1/input1.pdb ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravic.xml  ~/peptideAmyloid/rosettaFixBB/input1/input1.resfile ~/peptideAmyloid/rosettaFixBB/input1/input1.cst ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp
+# python submitPatterningJobs.py ~/binLocal/Rosetta/main/ ~/peptideAmyloid/rosettaFixBB/input1 ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravicmini.xml  ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp
 
+#### INPUT NOTE: Due to author laziness,regex fails for '~/peptideAmyloid/rosettaFixBB/input1/' .... so leave this out
 
-# Variable args
+################## MAIN #######################
+# Non-variable args
 rosetta_database_path   = os.path.join( sys.argv[1] , 'database/' )
 rosetta_scriptsEXE_path = os.path.join( sys.argv[1], 'source/bin/rosetta_scripts.linuxgccrelease' )
 design_script_path      = sys.argv[3]
-resfile_path            = sys.argv[4]
-cst_path				= sys.argv[5]
-comp_path 				= sys.argv[6]
+comp_path 				= sys.argv[4]
+
+# Variable args
+match = re.search( r'input(\d+)', os.path.basename( sys.argv[2] ) )
+if match:
+	index = match.group(1)
+else:
+	print 'PDB input directory syntax failure'
+	sys.exit()
+
+struc_path				= os.path.join( sys.argv[2], 'input%s.pdb' % (index) )
+resfile_path            = os.path.join( sys.argv[2], 'input%s.resfile' % (index) )
+cst_path				= os.path.join( sys.argv[2], 'input%s.cst' % (index) )
 output_prefix			= os.path.dirname( sys.argv[2] ) + '/'
 
 cmd = [
 		rosetta_scriptsEXE_path,
 		'-database', rosetta_database_path,
 		'-parser:protocol', design_script_path,
-		'-in:file:s', sys.argv[2],
+		'-in:file:s', struc_path,
 		'-out:prefix', output_prefix,   
 		'-out:suffix', '_out',                               
 		'-out:no_nstruct_label',
@@ -38,7 +48,6 @@ cmd = [
 		'-parser:script_vars', 'cst_file=%s' % ( cst_path ), 'comp_file=%s' % (comp_path), 
 
 ]
-
 print
 print cmd
 print
