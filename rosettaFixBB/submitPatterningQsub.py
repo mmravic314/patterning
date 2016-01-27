@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python2.7
 
 #$ -S /usr/bin/python
 #$ -l mem_free=1G
@@ -7,7 +7,12 @@
 #$ -l h_rt=00:05:00
 #$ -cwd
 #$ -j y
+#$ -o /netapp/home/mmravic/peptideAmyloid/rosettaFixBB/logfiles/
 #$ -t 1-10
+
+#############
+# qsub submitPatterningQsub.py ~/bin/Rosetta/ ~/peptideAmyloid/rosettaFixBB/input1 ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravicmini.xml  ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp 
+#############
 
 
 # submit fixed BB minimization jobs for de novo sequence design of 
@@ -23,7 +28,7 @@
 # 4) residue composition score file path
 import sys, os, subprocess as sp, re
 
-# python submitPatterningJobs.py ~/binLocal/Rosetta/main/ ~/peptideAmyloid/rosettaFixBB/input1 ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravicmini.xml  ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp
+# python submitPatterningJobs.py ~/bin/Rosetta/ ~/peptideAmyloid/rosettaFixBB/input1 ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravicmini.xml  ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp
 
 #### INPUT NOTE: Due to author laziness,regex fails for '~/peptideAmyloid/rosettaFixBB/input1/' .... so leave this '/' out!!!
 
@@ -45,15 +50,19 @@ else:
 struc_path				= os.path.join( sys.argv[2], 'input%s.pdb' % (index) )
 resfile_path            = os.path.join( sys.argv[2], 'input%s.resfile' % (index) )
 cst_path				= os.path.join( sys.argv[2], 'input%s.cst' % (index) )
-output_prefix			= os.path.dirname( sys.argv[2] ) + '/'
+output_prefix			= sys.argv[2] + '/'
+try:
+	output_suffix 			= '_out%s' % (str(  os.environ["SGE_TASK_ID"]) )
+except KeyError:
+	output_suffix                      = '_out%s' % ( 'Local' )
 
 cmd = [
 		rosetta_scriptsEXE_path,
 		'-database', rosetta_database_path,
 		'-parser:protocol', design_script_path,
-		'-in:file:s', sys.argv[2],
+		'-in:file:s', struc_path,
 		'-out:prefix', output_prefix,   
-		'-out:suffix', '_out%d' & (os.environ["SGE_TASK_ID"]),                               
+		'-out:suffix', output_suffix,                               
 		'-out:no_nstruct_label',
 		'-out:overwrite',
         '-packing:resfile', resfile_path,
