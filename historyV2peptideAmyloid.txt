@@ -52,5 +52,11 @@ python ~/bin/parseDssp.py n9_2strand_helixMatches/ FullInterface.pdb 1helix/ hel
 > python submitPatterningJobs.py ~/binLocal/Rosetta/main/ ~/peptideAmyloid/rosettaFixBB/input1/input1.pdb ~/peptideAmyloid/rosettaFixBB/patterningFixedBB_Mravic.xml  ~/peptideAmyloid/rosettaFixBB/input1/input1.resfile ~/peptideAmyloid/rosettaFixBB/input1/input1.cst ~/peptideAmyloid/rosettaFixBB/disfavour_polyLys.comp 
 
 
+###### Analyze score, unsat, packstat for the 10 runs of each trajectory
+> python initScoreCheckRosy.py ~/peptideAmyloid/rosettaFixBB/ > init10data.txt
+
+# Hand pick the "acceptable" scaffold given negative design trajectories
+
+
 
 
