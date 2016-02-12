@@ -1,0 +1,24 @@
+REMARK /FullInterface//B/GLN`15/CA
+REMARK /FullInterface//D/GLN`15/CA
+REMARK /FullInterface//C/TYR`10/CA
+REMARK /FullInterface//C/GLN`15/CA
+REMARK /FullInterface//C/PHE`20/CA
+REMARK CENTER
+REMARK algin N
+REMARK align C
+REMARK N_coords 
+REMARK C_coords
+REMARK N_axis
+REMARK C_axis
+ATOM      1  CA  HIS Z   1       0.000   5.000  -7.300  1.00 20.00           C  
+ATOM      2  CA  HIS Z   2       0.000  -5.000  -7.300  1.00 20.00           C  
+ATOM      3  CA  HIS Z   3      16.500   0.000  -5.000  1.00 20.00           C  
+ATOM      4  CA  HIS Z   4       0.000   0.000  -7.300  1.00 20.00           C  
+ATOM      5  CA  HIS Z   5     -16.500   0.000  -5.000  1.00 20.00           C 
+ATOM      6  CA  HIS Z   6       0.000   0.000   0.000  1.00 20.00           C  
+ATOM      7  CA  HIS T   1      13.000   0.000   0.000  1.00 20.00           C 
+ATOM      8  CA  HIS T   2     -13.000   0.000   0.000  1.00 20.00           C 
+ATOM      1 CA   HIS P   1      15.221   6.473    6.73  1.00 30.00           C  
+ATOM      2 CA   HIS P   2       -7.15  -6.488   6.392  1.00 30.00           C  
+ATOM      3 CA   HIS X   1      15.163   6.445     5.0  1.00 30.00           C  
+ATOM      4 CA   HIS X   2      -7.163  -6.445     6.0  1.00 30.00           C  

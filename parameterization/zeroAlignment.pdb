@@ -1,0 +1,10 @@
+REMARK /FullInterface//B/GLN`15/CA
+REMARK /FullInterface//D/GLN`15/CA
+REMARK /FullInterface//C/TYR`10/CA
+REMARK /FullInterface//C/GLN`15/CA
+REMARK /FullInterface//C/PHE`20/CA
+ATOM      1  CA  HIS Z   1       0.000   5.000  -7.300  1.00 20.00           C  
+ATOM      1  CA  HIS Z   2       0.000  -5.000  -7.300  1.00 20.00           C  
+ATOM      1  CA  HIS Z   3      16.500   0.000  -5.000  1.00 20.00           C  
+ATOM      1  CA  HIS Z   4       0.000   0.000  -7.300  1.00 20.00           C  
+ATOM      1  CA  HIS Z   5     -16.500   0.000  -5.000  1.00 20.00           C 
