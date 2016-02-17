@@ -1,0 +1,55 @@
+finalHistory_peptideAmyloid.txt
+
+# Dependencies (place in $PYTHONPATH)
+# numpy, ProDy, TERMANAL (TERM Analysis and MASTER + CONFIND binaries, Ca. 2015 Gevorg Grigoryian Lab )
+# All other code and modules references found in Marco's ~/bin/ folder (See github repository for maintained directory)
+
+##### Database ( constructed ) #####
+##### Search database construction, (PDB subset turned into .pds files, formatted as searchable 'targets' by program MASTER )
+
+## Remade single chain non-redundent database. from 30% culling of chains by BLASTClust on PDB. X-ray only < 2.8 A from 152901_bc_30-scPDB.txt
+## Got entries_xray_res.txt pdb_seqres-byCh.txt from PDB website... look in files for what info is in there... x-ray, length, resolution
+## "Summaries of PDB data" page, entries.idx & pdb_seqres.txt      http://www.rcsb.org/pdb/static.do?p=general_information/about_pdb/summaries.html
+
+. cd ~/termanal/support.default/
+> python ~/bin/masterDB_frombcscList.py entries_xray_res.txt pdb_seqres-byCh.txt 152901_bc_30-scPDB.txt  >  nr152901_bc_30-scPDB.txt
+
+# Then download this list of PDB chains (if not too large, like ribosome cuz different file format), extract chain to new file, run createPDS to get parsed output PDB and MASTER format searchable .pds 'target' file
+> python ~/bin/downloadPDBdatabaseV2_scDB.py ~/termanal/support.default/152901_bc_30-scPDB.txt /home/xray/termanal/support.default/152901_bc_30-scPDB-PRE /home/xray/termanal/support.default/152901_bc_30-scPDB /home/xray/termanal/support.default/152901_bc_30-scPDB_oPDB
+
+# Then with some bash terminal, print the full path to each .pds into 'list.txt' inside databse directory '152901_bc_30-scPDB/'; one path per line
+> for i in /home/xray/termanal/support.default/152901_bc_30-scPDB/*.pds; do echo $i >> list.txt
+
+##### Database construction end
+
+
+############### Main ################################
+
+# comment amove command will mention (LOCAL) if done on laptop or (CLUSTER) if done on interactive node of UCSF QB3 cluster (including job submission)
+# All files were passed between cluster and local through git repository (~/bin for code and ~/peptideAmyloid for working space)
+# All paths should be the same after '~/', where ~/ depends on local or cluster...
+# Except linux TERMANAL and database... were tarballed and transferred to 
+
+## (LOCAL)generate sets of parameters (6) in text file (argument 1) (one set per line, spce delimted, angles in degrees, distances in Angstroms)
+
+> python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
+
+## (Local) and semi manual... make PDB file "zeroAlignment.pdb" with atoms as markers to new coordinate frame
+#  For alignment of the OSAKA amyloid interface to 5 points in a new "centered" coordinate frame where helix center to be at (0,0,0)
+# order of C-alpha atoms in file is same as odrder of REMARKS, the latter having pymol selection strings for residue/atom that should be aligned to this point. These atoms are hard coded into python script
+
+> python ~/bin/quickAlignOsk.py ~/peptideAmyloid/parameterization/FullInterface.pdb ~/peptideAmyloid/parameterization/zeroAlignment.pdb 
+
+
+# (Cluster) From parameters, generate single helix model
+
+> python ~/bin/params2coords.py params.txt ~/peptideAmyloid/parameterization/helix_prep/18_2ztaCEN.pdb ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb
+
+
+
+
+
+
+
+
+############### Main End ############################
