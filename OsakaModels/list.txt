@@ -1,0 +1,5 @@
+/netapp/home/mmravic/peptideAmyloid/OsakaModels/model_0.pdb
+/netapp/home/mmravic/peptideAmyloid/OsakaModels/model_1.pdb
+/netapp/home/mmravic/peptideAmyloid/OsakaModels/model_2.pdb
+/netapp/home/mmravic/peptideAmyloid/OsakaModels/model_3.pdb
+/netapp/home/mmravic/peptideAmyloid/OsakaModels/model_4.pdb
