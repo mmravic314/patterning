@@ -2,6 +2,7 @@ finalHistory_peptideAmyloid.txt
 
 # Dependencies (place in $PYTHONPATH)
 # numpy, ProDy, TERMANAL (TERM Analysis and MASTER + CONFIND binaries, Ca. 2015 Gevorg Grigoryian Lab )
+# Uses PS – a program for the analysis of helix geometry... J. Mol. Graph. Model. (2011), doi:10.1016/j.jmgm.2011.11.004 (must compile this fortran source code)
 # All other code and modules references found in Marco's ~/bin/ folder (See github repository for maintained directory)
 
 ##### Database ( constructed ) #####
@@ -30,21 +31,54 @@ finalHistory_peptideAmyloid.txt
 # All paths should be the same after '~/', where ~/ depends on local or cluster...
 # Except linux TERMANAL and database... were tarballed and transferred to 
 
-## (LOCAL)generate sets of parameters (6) in text file (argument 1) (one set per line, spce delimted, angles in degrees, distances in Angstroms)
+#### Prelim file prep ####
 
-> python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
+> mkdir ~/peptideAmyloid
+> mkdir ~/peptideAmyloid/parameterization
 
-## (Local) and semi manual... make PDB file "zeroAlignment.pdb" with atoms as markers to new coordinate frame
+# 1) full interface file. Hard to explain, made manually. Took PDB file of OSAKA fragment of amyloid, residues 10-23 (inclusive). 
+#and entended the sheet in both directions by duplicating a few chains and best aligning 2 strands to the original sheet (then hanging 3-4 strands are added).
+# Renamed chains to remove overlap... save to ~/peptideAmyloid/parameterization/FullInterface.pdb 
+# A in most negative Y direction, K in most positive Y
+
+#) helix to dock, file all saved in helix_prep/ (see path below). From pdb 2ZTA aka GCN4, residues 7-24 (inclusive). Save to 18_2zta.pdb
+# fit helical axis w/ PS program, Get from stdout: CA coordinates projected onto axis from output of PS (PS.linux is compiled w/ gfortran4.8).  
+
+> mkdir ~/peptideAmyloid/parameterization/helix_prep
+
+> ~/bin/PS.linux -i ~/peptideAmyloid/parameterization/helix_prep/18_2zta.pdb -f 7 -l 24
+
+# Save axis coords to '~/peptideAmyloid/parameterization/helix_prep/CA_18_2zta.pdb'
+# Copy HETATM lines of PDB from C and N termini of axis to the end of 18_2zta.pdb, change to chain 'X'
+# Make some other file with two HETATMS with coords: -12.885  -0.000   0.000 & 12.885  -0.000   0.000
+# IN pymol, use pair fitting wizard to fit two axis points (chain X) to these X-axis markers...
+# This should align the entire 18_2zta.pdb to X-axis. Save the aligned molecule 18_2ztaCEN.pdb (in helix_prep/)
+
+
+## For visualization ONLY... (Local) and semi manual... make PDB file "zeroAlignment.pdb" with atoms as markers to new coordinate frame
 #  For alignment of the OSAKA amyloid interface to 5 points in a new "centered" coordinate frame where helix center to be at (0,0,0)
 # order of C-alpha atoms in file is same as odrder of REMARKS, the latter having pymol selection strings for residue/atom that should be aligned to this point. These atoms are hard coded into python script
 
 > python ~/bin/quickAlignOsk.py ~/peptideAmyloid/parameterization/FullInterface.pdb ~/peptideAmyloid/parameterization/zeroAlignment.pdb 
 
 
-# (Cluster) From parameters, generate single helix model
+## Note, did this same protocol for straight (w_0 = 100, curvature = inf) helix '' 
 
+#### Prelim END  #########
+
+## (LOCAL) generate sets of parameters (6) in text file (argument 1) (one set per line, spce delimted, angles in degrees, distances in Angstroms)
+
+> python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
+
+
+# (Cluster) From parameters, generate single helix model (plus repeat at one spot and repeat at the other)
+> cd parameterization
 > python ~/bin/params2coords.py params.txt ~/peptideAmyloid/parameterization/helix_prep/18_2ztaCEN.pdb ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb
 
+
+# (Cluster) Generate TERMS... submit jobs
+# Write paths to all pDB to a list file. find length of list (total jobs needed)
+# Alter bash submission script SGE header '#$ -t 1-XX' for this number of task (number = XX)
 
 
 
