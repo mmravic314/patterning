@@ -62,7 +62,11 @@ finalHistory_peptideAmyloid.txt
 > python ~/bin/quickAlignOsk.py ~/peptideAmyloid/parameterization/FullInterface.pdb ~/peptideAmyloid/parameterization/zeroAlignment.pdb 
 
 
-## Note, did this same protocol for straight (w_0 = 100, curvature = inf) helix '' 
+## Note, did this same protocol for straight (w_0 = 100, curvature = inf) helix ''... 
+## with 2D wall paper symmetry, aligning a helix to X-axis and setting z coords of each helical axis to 4 A above amyloid center...
+## added previous and next symmetry mate, the did strucctural search of 12-center most residues on i to i+1 interface and i-1 to i itnerface. 
+## with both GCN4 and ideal helix, got >250 sub-angstrom full backbone matches to the pdb files of both interfaces (2 helices with 12 residues each, axis 10 A away. )
+## Hence these interfaces are generally designable    
 
 #### Prelim END  #########
 
@@ -71,7 +75,7 @@ finalHistory_peptideAmyloid.txt
 > python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
 
 
-# (Cluster) From parameters, generate single helix model (plus repeat at one spot and repeat at the other)
+# (Cluster) From parameters, generate single helix model (plus repeat at one spot and repeat at the other). not submitted job, just on node
 > cd parameterization
 > python ~/bin/params2coords.py params.txt ~/peptideAmyloid/parameterization/helix_prep/18_2ztaCEN.pdb ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb
 
