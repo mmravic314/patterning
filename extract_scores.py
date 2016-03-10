@@ -1,4 +1,4 @@
- # scl enable python27 'python extract_scores.py ./scores/ ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scoreDict.pkl '
+ # scl enable python27 'python extract_scores.py ~/peptideAmyloid/logfiles/cmp1_030415/  ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scoreDict.pkl ~/peptideAmyloid/scores/'
 
 
 
