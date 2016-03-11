@@ -79,10 +79,36 @@ finalHistory_peptideAmyloid.txt
 > cd parameterization
 > python ~/bin/params2coords.py params.txt ~/peptideAmyloid/parameterization/helix_prep/18_2ztaCEN.pdb ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb
 
+> cd ../OsakaModels
 
 # (Cluster) Generate TERMS... submit jobs
 # Write paths to all pDB to a list file. find length of list (total jobs needed)
-# Alter bash submission script SGE header '#$ -t 1-XX' for this number of task (number = XX)
+# Alter bash submission script SGE header '#$ -t 1-XX' for this number of task (number = XX), did units of 80000
+
+> qsub ../modelEval_qsub.sh list.txt 
+
+# tried 900K jobs but took 2 weeks for ~20,000. so killed all early 
+# gzipped and moved all output log files and .cmap files into ~/peptideAmyloid/logfile/cmpX_#date#/ (commands not shown, directory name custom for round of parameter eval)
+
+# move score files into new directory, then summarize scores and parameters, for local analysis
+> cd ~/peptideAmyloid
+> for i in OsakaModels/*.sc; do mv $i scores/ ; done
+
+> scl enable python27 'python extract_scores.py ~/peptideAmyloid/logfiles/cmp1_030415/  ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scoreDict.pkl ~/peptideAmyloid/scores/'
+
+# (Local, after merge this data to git)
+# plot data (pop-up window, hand scale, save) , pick designs over a threshold for each score category
+
+> python ~/bin/desPlot.py scoreDict.pkl > rnd1_models2Design.txt 
+
+# ~90 templates
+python ~/bin/TORCH_rn1_rosiPrep.py ~/peptideAmyloid/Rnd1_models2Design.txt ~/peptideAmyloid/RND1_designTrj030515/ ~/peptideAmyloid/OsakaModels/
+
+
+
+
+
+
 
 
 
