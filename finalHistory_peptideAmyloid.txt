@@ -71,15 +71,27 @@ finalHistory_peptideAmyloid.txt
 #### Prelim END  #########
 
 ## (LOCAL) generate sets of parameters (6) in text file (argument 1) (one set per line, spce delimted, angles in degrees, distances in Angstroms)
+## Writes many files with this same path input, but with number added before the extension. Parameters randomized 
 
 > python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
 
 
+## Given randomized lists  as mini job queues
+## 
+
+
+
+
+
+
+################# Below section done, but needed refinement (see above section replacing this below) ###########
+
 # (Cluster) From parameters, generate single helix model (plus repeat at one spot and repeat at the other). not submitted job, just on node
 > cd parameterization
-> python ~/bin/params2coords.py params.txt ~/peptideAmyloid/parameterization/helix_prep/18_2ztaCEN.pdb ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb
+> python ~/bin/params2coords.py ~/peptideAmyloid/parameterization/params.txt ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb
 
 > cd ../OsakaModels
+
 
 # (Cluster) Generate TERMS... submit jobs
 # Write paths to all pDB to a list file. find length of list (total jobs needed)
