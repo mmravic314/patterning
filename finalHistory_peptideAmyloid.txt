@@ -75,9 +75,15 @@ finalHistory_peptideAmyloid.txt
 
 > python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
 
+## Given randomized lists as mini job queues
+## process each as a set of jobs: create pdb, break into fragments, determine 'design-ibility' by fragment search
 
-## Given randomized lists  as mini job queues
-## 
+> mkdir ~/peptideAmyloid/OsakaModels/
+> mkdir ~/peptideAmyloid/scores_rnd1/
+> mkdir ~/peptideAmyloid/logfiles/
+
+> bash ~/bin/torch_evalQsub.sh ~/peptideAmyloid 
+
 
 
 
