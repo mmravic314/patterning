@@ -82,7 +82,13 @@ finalHistory_peptideAmyloid.txt
 > mkdir ~/peptideAmyloid/scores_rnd1/
 > mkdir ~/peptideAmyloid/logfiles/
 
-> bash ~/bin/torch_evalQsub.sh ~/peptideAmyloid 
+## Before executing bash script on cluster, must go in and change the task line
+#$ -t 1-N     where N = number of lines in params file, can find using bash " > cat ~/peptideAmyloid/parameterization/params1.txt | wc -l "  
+
+> qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params5.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/termanal/support.default/152901_bc_30-scPDB/list.txt ~/termanal/
+
+
+## submit to cluster
 
 
 
