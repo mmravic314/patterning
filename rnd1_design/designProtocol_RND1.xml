@@ -1,0 +1,126 @@
+<ROSETTASCRIPTS>
+
+ <SCOREFXNS>
+         <hard weights=talaris2014.wts >
+         </hard>
+
+         <soft weights=soft_rep_design>
+         </soft>
+
+         <hard_bb weights=talaris2014.wts >
+                 <Reweight scoretype=cart_bonded weight=0.5 />
+                 <Reweight scoretype=pro_close weight=0.0/>
+         </hard_bb>
+
+ </SCOREFXNS>
+
+ <RESIDUE_SELECTORS>
+   <Chain name=hlx chains=Y/>
+
+</RESIDUE_SELECTORS>
+
+ <TASKOPERATIONS>
+
+         <ReadResfile name="resfile"/>
+         <IncludeCurrent name=current/>
+         <LimitAromaChi2 name=arochi />
+         <ExtraRotamersGeneric name=ex1_ex2 ex1=1 ex2=1/>
+        <ExtraRotamersGeneric name=ex1 ex1=1/>
+
+<LinkResidues name="linkres">
+
+<LinkGroup group="1,19,37"/>
+<LinkGroup group="2,20,38"/>
+<LinkGroup group="3,21,39"/>
+<LinkGroup group="4,22,40"/>
+<LinkGroup group="5,23,41"/>
+<LinkGroup group="6,24,42"/>
+<LinkGroup group="7,25,43"/>
+<LinkGroup group="8,26,44"/>
+<LinkGroup group="9,27,45"/>
+<LinkGroup group="10,28,46"/>
+<LinkGroup group="11,29,47"/>
+<LinkGroup group="12,30,48"/>
+<LinkGroup group="13,31,49"/>
+<LinkGroup group="14,32,50"/>
+<LinkGroup group="15,33,51"/>
+<LinkGroup group="16,34,52"/>
+<LinkGroup group="17,35,53"/>
+<LinkGroup group="18,36,54"/>
+
+</LinkResidues>
+
+         <LayerDesign name=all_layers layer=others ignore_pikaa_natro=true>
+                 <CombinedTasks name=symmetric_interface_core>
+                        <SelectBySASA state=bound mode=mc core=1 probe_radius=2.0 core_asa=30 surface_asa=50 verbose=0/>
+                        <all copy_layer=core />
+                         <Helix exclude="W"/>
+                         <Helix append="GTHN"/>
+                </CombinedTasks>
+
+                
+                <CombinedTasks name=symmetric_interface_surface>
+                        <SelectBySASA state=bound mode=mc surface=1 probe_radius=2.0 core_asa=30 surface_asa=50 verbose=0/>
+                        <all copy_layer=surface />
+                         <Helix exclude="WA"/>
+
+                </CombinedTasks>
+ 
+         
+                 <CombinedTasks name=symmetric_interface_boundary>
+                        <SelectBySASA state=bound mode=mc boundary=1 probe_radius=2.0 core_asa=30 surface_asa=50 verbose=0/>
+                         <all copy_layer=boundary />
+                         <Helix append="GM"/>
+                         <Helix exclude="WDE"/>
+                 </CombinedTasks>
+ 
+         </LayerDesign>
+
+
+
+
+ </TASKOPERATIONS>
+
+
+ <FILTERS>
+
+    <PackStat name=packstat threshold=0.4 confidence=0/>
+ 	<BuriedUnsatHbonds name=uhb scorefxn=hard confidence=0 jump_number=0 cutoff=4/>
+ 	<ScoreType name=score_eval scorefxn=hard threshold=200/>
+
+
+ </FILTERS>
+
+ <MOVERS>
+
+        <PackRotamersMover name=softpack_core scorefxn=soft task_operations=resfile,all_layers,linkres,current,arochi/>
+        <PackRotamersMover name=softpack_boundary scorefxn=soft task_operations=resfile,all_layers,linkres,current,arochi/>
+        <PackRotamersMover name=softpack_surface scorefxn=soft task_operations=resfile,all_layers,linkres,current,arochi/>
+        
+        <MinMover name=hardmin_sconly scorefxn=hard chi=1 bb=0 bondangle=0 bondlength=0/>
+
+        <PackRotamersMover name=hardpack_core scorefxn=hard task_operations=resfile,all_layers,linkres,current,arochi,ex1_ex2/>
+        <PackRotamersMover name=hardpack_boundary scorefxn=hard task_operations=resfile,all_layers,linkres,current,arochi,ex1_ex2/>
+        <PackRotamersMover name=hardpack_surface scorefxn=hard task_operations=resfile,all_layers,linkres,current,arochi,ex1_ex2/>
+
+ </MOVERS>
+
+ <APPLY_TO_POSE>
+ </APPLY_TO_POSE>
+
+ <PROTOCOLS>
+
+         <Add mover=hardpack_core/>
+         <Add mover=hardmin_sconly/>
+
+	<Add filter=uhb/>
+	<Add filter=packstat/>
+ 	<Add filter=score_eval/>
+
+
+
+ </PROTOCOLS>
+
+<OUTPUT scorefxn="talaris2014"/>
+
+</ROSETTASCRIPTS>

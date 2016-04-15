@@ -43,16 +43,18 @@ finalHistory_peptideAmyloid.txt
 
 #) helix to dock, file all saved in helix_prep/ (see path below). From pdb 2ZTA aka GCN4, residues 7-24 (inclusive). Save to 18_2zta.pdb
 # fit helical axis w/ PS program, Get from stdout: CA coordinates projected onto axis from output of PS (PS.linux is compiled w/ gfortran4.8).  
+## or grab any segment from a CCCP coiled-coil bundle.
 
 > mkdir ~/peptideAmyloid/parameterization/helix_prep
 
 > ~/bin/PS.linux -i ~/peptideAmyloid/parameterization/helix_prep/18_2zta.pdb -f 7 -l 24
 
 # Save axis coords to '~/peptideAmyloid/parameterization/helix_prep/CA_18_2zta.pdb'
-# Copy HETATM lines of PDB from C and N termini of axis to the end of 18_2zta.pdb, change to chain 'X'
-# Make some other file with two HETATMS with coords: -12.885  -0.000   0.000 & 12.885  -0.000   0.000
-# IN pymol, use pair fitting wizard to fit two axis points (chain X) to these X-axis markers...
-# This should align the entire 18_2zta.pdb to X-axis. Save the aligned molecule 18_2ztaCEN.pdb (in helix_prep/)
+
+# **** NOTE ***** Copy HETATM lines of PDB from C and N termini of axis to the end of 18_2zta.pdb, change to chain 'X'
+# rename helical chain to A
+# put the HETATM's from CA fitting from PS at bottom of file:  C-term, then N-term
+
 
 
 ## For visualization ONLY... (Local) and semi manual... make PDB file "zeroAlignment.pdb" with atoms as markers to new coordinate frame
@@ -68,35 +70,13 @@ finalHistory_peptideAmyloid.txt
 ## with both GCN4 and ideal helix, got >250 sub-angstrom full backbone matches to the pdb files of both interfaces (2 helices with 12 residues each, axis 10 A away. )
 ## Hence these interfaces are generally designable    
 
-#### Prelim END  #########
-
-## (LOCAL) generate sets of parameters (6) in text file (argument 1) (one set per line, spce delimted, angles in degrees, distances in Angstroms)
-## Writes many files with this same path input, but with number added before the extension. Parameters randomized 
-
-> python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
-
-## Given randomized lists as mini job queues
-## process each as a set of jobs: create pdb, break into fragments, determine 'design-ibility' by fragment search
-
-> mkdir ~/peptideAmyloid/OsakaModels/
-> mkdir ~/peptideAmyloid/scores_rnd1/
-> mkdir ~/peptideAmyloid/logfiles/
-
-## Before executing bash script on cluster, must go in and change the task line
-#$ -t 1-N     where N = number of lines in params file, can find using bash " > cat ~/peptideAmyloid/parameterization/params1.txt | wc -l "  
-
-> qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params5.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/termanal/support.default/152901_bc_30-scPDB/list.txt ~/termanal/
-
-
-## submit to cluster
 
 
 
 
 
-
-
-################# Below section done, but needed refinement (see above section replacing this below) ###########
+#### OBSOLUTE, OLD SECTION
+#Below section done, but needed refinement (see above section replacing this below) ###########
 
 # (Cluster) From parameters, generate single helix model (plus repeat at one spot and repeat at the other). not submitted job, just on node
 > cd parameterization
@@ -127,6 +107,195 @@ finalHistory_peptideAmyloid.txt
 
 # ~90 templates
 python ~/bin/TORCH_rn1_rosiPrep.py ~/peptideAmyloid/Rnd1_models2Design.txt ~/peptideAmyloid/RND1_designTrj030515/ ~/peptideAmyloid/OsakaModels/
+
+
+###################################################################
+
+
+
+#### Prelim END  #########
+
+
+
+
+
+######### START REAL
+
+
+
+
+## (LOCAL) generate sets of parameters (6) in text file (argument 1) (one set per line, spce delimted, angles in degrees, distances in Angstroms)
+## Writes many files with this same path input, but with number added before the extension. Parameters randomized 
+
+> python ~/bin/paramsGen.py ~/peptideAmyloid/parameterization/params.txt
+
+## Given randomized lists as mini job queues
+## process each as a set of jobs: create pdb, break into fragments, determine 'design-ibility' by fragment search
+
+> mkdir ~/peptideAmyloid/OsakaModels/
+> mkdir ~/peptideAmyloid/scores_rnd1/
+> mkdir ~/peptideAmyloid/logfiles/
+
+## Before executing bash script on cluster, must go in and change the task line
+#$ -t 1-N     where N = number of lines in params file **minus 1**
+# can find using bash " > cat ~/peptideAmyloid/parameterization/params1.txt | wc -l "  
+
+> qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params5.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/termanal/support.default/152901_bc_30-scPDB/list.txt ~/termanal/
+
+
+#### MM submitted to QB3 cluster
+
+3/17/15: 
+
+@ 4:47 pm JOB ID: 9367247
+
+qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params1.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/binLocal/termanal/support.default/162901_bc_30-scPDB/list.txt ~/binLocal/termanal/
+
+@ 4:10 pm JOB ID: 9367263
+
+qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params2.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/binLocal/termanal/support.default/162901_bc_30-scPDB/list.txt ~/binLocal/termanal/
+
+Finished overnight. dont' know what time
+
+3/18/15 submitted same for params3.txt to params14.txt
+
+3 9369419
+4 9369420
+5 9369421
+6 9369422
+7 9369423
+8 9369424
+9 9369425
+10 9369426
+11 9369427
+12 9369428
+13 9369429
+14 9369431
+
+
+## Lots of problems here... MASTER stdout needs to be rerouted to null, so logfiles arent huge space. Re run the whole parameter set, remake pdb files
+
+[mmravic@iq218 peptideAmyloid]$ for i in ~/peptideAmyloid/parameterization/params*.txt; do qsub ~/bin/torch_evalQsub.sh $i ~/peptideAmyloid/rnd1OsakaModels/ ~/peptideAmyloid/rnd1_scores/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/binLocal/termanal/support.default/162901_bc_30-scPDB/list.txt ~/binLocal/termanal/; echo $i ; echo ;  done
+
+Your job-array 9374426.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params10.txt
+
+Your job-array 9374427.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params11.txt
+
+Your job-array 9374428.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params12.txt
+
+Your job-array 9374429.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params13.txt
+
+Your job-array 9374430.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params14.txt
+
+Your job-array 9374431.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params1.txt
+
+Your job-array 9374432.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params2.txt
+
+Your job-array 9374433.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params3.txt
+
+Your job-array 9374434.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params4.txt
+
+Your job-array 9374435.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params5.txt
+
+Your job-array 9374436.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params6.txt
+
+Your job-array 9374437.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params7.txt
+
+Your job-array 9374438.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params8.txt
+
+Your job-array 9374439.1-50000:1 ("torch_evalQsub.sh") has been submitted
+/netapp/home/mmravic/peptideAmyloid/parameterization/params9.txt
+
+[mmravic@iq218 peptideAmyloid]$  qdel 9374429
+mmravic has deleted job 9374429
+
+## change final job submission amount since last parameters
+[mmravic@iq218 peptideAmyloid]$ vi ~/bin/torch_evalQsub.sh 
+
+[mmravic@iq218 peptideAmyloid]$  qsub ~/bin/torch_evalQsub.sh /netapp/home/mmravic/peptideAmyloid/parameterization/params14.txt  ~/peptideAmyloid/rnd1OsakaModels/ ~/peptideAmyloid/rnd1_scores/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/binLocal/termanal/support.default/162901_bc_30-scPDB/list.txt ~/binLocal/termanal/
+Your job-array 9374441.1-12904:1 ("torch_evalQsub.sh") has been submitted
+
+##############  Summarize and Pull results from cluster (models and score files)
+
+## on cluster, look into model and score files, write params and design-ibility scores (number of unique sub-threshold matches)
+# depending on sign of Theta (on interval -180, 180), write to different summary file
+# classify each model/parameterSet by score, as passing or not; used minimum score > 50 or average score >=80
+> scl enable python27 'python ~/bin/summarize_paramsScores.py ~/peptideAmyloid/rnd1_scores/ ~/peptideAmyloid/rnd1OsakaModels/  ~/peptideAmyloid/posPaSummary.txt ~/peptideAmyloid/negPaSummary.txt'
+
+# push these files to git, pull on local workstation
+# plot histograms of 
+> mkdir rnd1_analysis
+> cd rnd1_analysis
+
+# look at summary file, and sort data passing filters on scores, like min(score) >=100 (vary the python script and print lines you want based on filters)
+# don't actually need to make sub directories yet, but include some somecond argument(unused)
+> python ~/bin/scores_analyzePlot.py ~/peptideAmyloid/posPaSummary.txt ~/peptideAmyloid/rnd1_analysis/posTheta/
+
+# given some subset, print info to file (parameters) to make models for ROSETTA design
+> python ~/bin/scores_pickModels.py ~/peptideAmyloid/negPaSummary.txt ~/peptideAmyloid/rnd1_analysis/negTheta/ > models2designRND1.tx
+
+## can pull models, or just make locally with parameters. 
+> mkdir rnd1_design
+> python ~/bin/pullModels_cluster.py ~/peptideAmyloid/models2designRND1.txt ~/peptideAmyloid/rnd1_design/ mmravic@pass2.compbio.ucsf.edu:/netapp/home/mmravic/peptideAmyloid/rnd1OsakaModels/
+
+## prep each for rosetta... 
+
+> python ~/bin/TORCH_rn1_rosiPrep.py ~/peptideAmyloid/models2designRND1.txt ~/peptideAmyloid/rnd1_design/
+
+# local design of 1 (for editing/tweeking)
+> python ~/bin/TORCH_rn1_design.py ~/rosetta/ ~/peptideAmyloid/rnd1_design/model_310127/model_310127.pdb  ~/peptideAmyloid/rnd1_design/designProtocol_RND1.xml  ~/peptideAmyloid/rnd1_design/resfile
+
+
+# to turn into cluster job submisstion ... NOT actually designing anything from rnd1
+############################
+
+######## ROUND 2 ########### Longer helix, 21 residues
+# re-wrote params2coords_rnd2.py for the longer helix
+# paramsGen_rnd2.py has new focused parameters... with only negative Theta
+# torch_designibility_rnd2.py should give more hits, removed C-terminal Ala-Asp backbone curve out
+# Otherwise, only little things were changed, like file paths... uncluding using the 21 resi long helix
+
+
+# (LOCAL)   1000692 parameters, split 50 ways (20013 per file, and dumped the remaining 43)
+python ~/bin/paramsGen_rnd2.py ~/peptideAmyloid/parameterization/
+
+
+# (LOCAL)
+> mkdir ~/peptideAmyloid/rnd2_OsakaModels/
+> mkdir ~/peptideAmyloid/rnd2_scores/
+> mkdir ~/peptideAmyloid/logfiles/
+
+## LOAD EVERYTHING TO GIT
+
+
+## Before executing bash script on cluster, must go in and change the task line
+#$ -t 1-N     where N = number of lines in params file **minus 1**
+# can find using bash " > cat ~/peptideAmyloid/parameterization/params1.txt | wc -l "  
+# lines per file: 20014
+
+
+
+
+
+### deleted this command line below... just looking 
+> qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params5.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/termanal/support.default/152901_bc_30-scPDB/list.txt ~/termanal/
+
+
+
+
 
 
 
