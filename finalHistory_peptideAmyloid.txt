@@ -287,21 +287,83 @@ python ~/bin/paramsGen_rnd2.py ~/peptideAmyloid/parameterization/
 # lines per file: 20014
 
 
+### Test (change task number to 1-5)
+>  qsub ~/bin/torch_evalQsubrnd2_L.sh ~/peptideAmyloid/parameterization/params_OG.txt  ~/peptideAmyloid/rnd2_OsakaModels/ ~/peptideAmyloid/rnd2_scores/ ~/peptideAmyloid/parameterization/helix_prep/21_Ideal_allALA.pdb  ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/binLocal/termanal/support.default/162901_bc_30-scPDB/list.txt ~/binLocal/termanal/
 
 
+## Sub all jobs  (4/15/16)
+for i in ~/peptideAmyloid/parameterization/params*_rnd2.txt; do   qsub ~/bin/torch_evalQsubrnd2_L.sh $i  ~/peptideAmyloid/rnd2_OsakaModels/ ~/peptideAmyloid/rnd2_scores/ ~/peptideAmyloid/parameterization/helix_prep/21_Ideal_allALA.pdb  ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/binLocal/termanal/support.default/162901_bc_30-scPDB/list.txt ~/binLocal/termanal/    ; done
 
-### deleted this command line below... just looking 
-> qsub ~/bin/torch_evalQsub.sh ~/peptideAmyloid/parameterization/params5.txt ~/peptideAmyloid/OsakaModels/ ~/peptideAmyloid/scores_rnd1/ ~/peptideAmyloid/parameterization/helix_prep/18_Ideal_allALA.pdb ~/peptideAmyloid/parameterization/FullInterfaceCENTERED.pdb ~/termanal/support.default/152901_bc_30-scPDB/list.txt ~/termanal/
+Your job-array 9386078.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386079.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386080.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386081.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386082.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386083.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386084.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386085.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386086.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386087.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386088.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386089.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386090.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386091.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386092.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386093.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386094.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386095.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386096.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386097.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386098.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386099.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386100.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386101.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386102.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386103.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386104.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386105.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386106.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386107.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386108.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386109.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386110.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386111.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386112.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386113.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386114.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386115.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386116.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386117.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386118.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386119.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386120.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386121.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386122.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386123.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386124.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386125.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386126.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
+Your job-array 9386127.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
 
+## This took like 8-9 days to run these million jobs
+## parse all score and model files to summarize parameters in matches per fragment into big text file
 
+## (ON CLUSTER)
+> scl enable python27 'python ~/bin/summarize_paramsScores.py ~/peptideAmyloid/rnd2_scores/ ~/peptideAmyloid/rnd2_OsakaModels/  rnd2_Summary.txt '
 
+## Then pulled all the model and score files from cluster.... and this summary file (50 MB) with an scp through ucsf pass2 nodes
 
+## analyze summary stats of designibilitt, plot successful and failed parameters
 
+>python ~/bin/scores_analyzePlot.py ~/peptideAmyloid/rnd2_Summary.txt ~/peptideAmyloid/rnd2_analysis/
 
+## Pick models to design based on minimum score of 140 in all fragments. This value is hard coded, just change in the loop
+> python ~/bin/scores_pickModels.py ~/peptideAmyloid/rnd2_Summary.txt ~/peptideAmyloid/rnd2_analysis/ > rnd2_models2design.txt
 
+# there were 11 models, super quick pyton script to just grab files to move to a design directory
+> python ~/bin/TORCH_rnd2_rosiPrep.py ~/peptideAmyloid/rnd2_models2design.txt ~/peptideAmyloid/rnd2_design/ ~/peptideAmyloid/rnd2_OsakaModels/
 
-
-
+# hand copy and edit resfile... picking polar and non-polar residues
 
 
 
