@@ -357,6 +357,60 @@ Your job-array 9386127.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
 
 >python ~/bin/scores_analyzePlot.py ~/peptideAmyloid/rnd2_Summary.txt ~/peptideAmyloid/rnd2_analysis/
 
+
+
+## Cluster top backbones by their 6 parameters with PCA_scaled standardized matrix of these features.... ~250 top backbones/parameter-sets
+# write models to a design folder
+
+> mkdir 
+> python ~/bin/pca_paramsData.py ~/peptideAmyloid/rnd2_Summary.txt ~/peptideAmyloid/rnd2_Summary_GOOD.pkl ~/peptideAmyloid/rnd2_clusters.txt ~/peptideAmyloid/rnd2_OsakaModels/  ~/peptideAmyloid/rnd2_design/ ~/peptideAmyloid/rnd2_models2design.txt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############ This stuff below was tried but not part of the final design workflow####
+
+
+
+
+
+
+
 ## Pick models to design based on minimum score of 140 in all fragments. This value is hard coded, just change in the loop
 > python ~/bin/scores_pickModels.py ~/peptideAmyloid/rnd2_Summary.txt ~/peptideAmyloid/rnd2_analysis/ > rnd2_models2design.txt
 
@@ -366,8 +420,24 @@ Your job-array 9386127.1-20013:1 ("torch_evalQsubrnd2_L.sh") has been submitted
 # hand copy and edit resfile... picking polar and non-polar residues
 
 
+## hand design in pymol or rosetta, then prep for MD
+##
 
 
+
+
+
+
+
+
+( in VMD TK CONSOL)
+## First auto PSF GEN
+>> package require solvate 
+>> solvate model_390974_hand-asp_autopsf.psf model_390974_hand-asp_autopsf.pdb -t 8 -o model_x_wb
+
+>>  -psf {solvate.psf} -pdb {solvate.pdb} -o ionized -seg ION -neutralize -cation SOD -anion CLA -from 5 -between 5auto
+
+# Thomas did a bunch of stuff here, changing protonation state of HIS and
 
 
 

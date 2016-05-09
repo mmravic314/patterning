@@ -1,0 +1,13 @@
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_173796.pdb.gz cluster-0 members-55 -2.96 -96.0 1.4 4.5 0.033 355.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_135118.pdb.gz cluster-1 members-44 1.97 -96.0 1.4 5.0 0.033 335.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_113129.pdb.gz cluster-2 members-39 1.97 -92.0 1.4 4.0 0.0 95.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_579127.pdb.gz cluster-3 members-26 -2.96 -92.0 1.4 5.0 0.066 355.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_173713.pdb.gz cluster-4 members-27 -2.96 -100.0 1.4 5.5 0.066 335.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_858014.pdb.gz cluster-5 members-21 -1.97 -96.0 1.4 4.5 0.017 95.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_490938.pdb.gz cluster-6 members-17 0.99 -90.0 2.1 5.0 0.066 355.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_536811.pdb.gz cluster-7 members-23 -0.0 -94.0 1.4 6.0 0.099 235.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_773536.pdb.gz cluster-8 members-8 0.99 -96.0 -0.7 6.5 0.116 155.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_698601.pdb.gz cluster-9 members-7 -3.94 -102.0 0.7 6.0 0.083 255.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_110884.pdb.gz cluster-10 members-1 4.93 -96.0 1.4 6.5 0.099 95.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_13724.pdb.gz cluster-11 members-4 4.93 -92.0 2.1 6.0 0.099 195.0
+/home/xray/peptideAmyloid/rnd2_OsakaModels/model_698333.pdb.gz cluster-12 members-3 4.93 -100.0 1.4 7.0 0.133 155.0
