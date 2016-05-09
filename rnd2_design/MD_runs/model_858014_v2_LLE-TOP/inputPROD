@@ -1,0 +1,38 @@
+set temperature 310
+set parameters parameters
+set structure design_MD
+set input restart
+set constraints constraints_sheets
+
+bincoordinates  $input.coor
+binvelocities  $input.vel
+extendedsystem  $input.xsc
+coordinates  $structure.pdb
+structure  $structure.psf
+parameters  $parameters
+temperature  $temperature
+restart  on
+restartfreq  5000
+outputname  output
+xtcfile  output.xtc
+xtcfreq  25000
+timestep  4
+rigidbonds  all
+hydrogenscale  4
+switching  on
+switchdist  7.5
+cutoff  9
+exclude  scaled1-4
+1-4scaling  1.0
+langevin  on
+langevintemp  $temperature
+langevindamping  0.1
+pme  on
+pmegridspacing  1.0
+fullelectfrequency  2
+constraints  on
+consref  $constraints.pdb
+constraintscaling  1.0
+
+energyfreq  5000
+run 10ns 

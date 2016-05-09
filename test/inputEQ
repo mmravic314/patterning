@@ -1,0 +1,60 @@
+set numsteps 2500000
+set temperature 310
+set parameters parameters
+set structure design_MD
+set constraints constraints
+set x 55
+set y 52
+set z 53
+
+proc calcforces_init {} {
+  berendsenpressure  off}
+proc calcforces {} {	
+  global numsteps
+  set step [ getstep ]
+  if { $step > 25000 } {
+    berendsenpressure  on
+  } else {
+    berendsenpressure  off}
+  if { $step > [expr $numsteps/2] } {
+
+
+    constraintscaling 0
+  } else {
+    constraintscaling [expr 1 + $step*(0.1-1)*2/$numsteps]}
+}
+proc calcforces_endstep { } { }
+coordinates  $structure.pdb
+structure  $structure.psf
+parameters  $parameters
+temperature  $temperature
+restart  on
+restartfreq  5000
+outputname  output
+xtcfile  output.xtc
+xtcfreq  25000
+timestep  4
+rigidbonds  all
+hydrogenscale  4
+switching  on
+switchdist  7.5
+cutoff  9
+exclude  scaled1-4
+1-4scaling  1.0
+langevin  on
+langevintemp  $temperature
+langevindamping  1
+pme  on
+pmegridspacing  1.0
+fullelectfrequency  2
+energyfreq  1000
+constraints  on
+consref  $constraints.pdb
+constraintscaling  1.0
+berendsenpressure  off
+berendsenpressuretarget  1.01325
+berendsenpressurerelaxationtime  800
+tclforces  on
+minimize  1000
+run  $numsteps
+celldimension $x $y $z 
